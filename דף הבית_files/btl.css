@@ -1,0 +1,3681 @@
+﻿body {
+    background: url(https://www.btl.gov.il/_layouts/15/images/btl.website/new/bg.png) repeat-x #e9e9e9 !important;
+    direction: rtl;
+    font-family:  arial!important;
+    overflow: scroll !important;
+}
+h2, h3, h4, .ms-h2, .ms-h3, .ms-headerFont {
+font-family: arial!important;
+}
+
+
+.btl_Body {
+    font-family:  arial!important;
+    background-image: none !important;
+    background: white!important;
+}
+
+.wholeList {
+    font-weight: bold; 
+}
+ 
+.hiden {
+    display: none;
+}
+
+.visuallyHiden
+{
+	   text-indent: -9999em;
+    height: 1px;
+        position: absolute;
+
+}
+
+
+a, a:visited {
+    color: #0044B7;
+}
+
+
+.middle-panel a, .middle-panel a:visited {
+        text-decoration: underline;
+}
+
+
+a:hover, a:focus {
+    color: #0066FF;
+     text-decoration: underline;
+}
+
+
+a:active {
+    text-decoration: underline !important;
+}
+
+a:visited {
+    color: #0066FF;
+}
+
+a:focus {
+    outline: 1px solid #FFAB01!important;
+}
+
+.menuitem_drop:focus
+{
+	text-decoration: underline !important;
+	 outline: none!important;
+}
+
+a.openSubCategories:focus
+{
+	border-color: #FFAB01 transparent transparent transparent!important;
+	outline: none!important;
+}
+
+.hide  {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.web-hide {
+    display: none;
+}
+
+
+h1, h2, h3, h4, h5 {
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.no-border {
+    border: none !important;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.hand {
+    cursor: pointer;
+}
+
+ol {
+    margin-right: 4%;
+}
+
+a.il-ItemTitleA:visited {
+    color: #0044b7;
+}
+
+.horizontalWPZone #leftDiv {
+    float: left;
+}
+
+.horizontalWPZone #rightDiv {
+    float: right;
+}
+
+.quickselect_results *,
+.quickselect_results {
+	font-family: arial!important;
+}
+
+pre
+{
+	white-space:normal;
+	background-color:transparent !important;
+}
+
+/*haruguei malchut*/
+
+.btl_OuterTableBackground {
+    background-image: url("https://www.btl.gov.il/_layouts/images/btl.website/btl_TopDivBG.jpg");
+   background-repeat: no-repeat;
+       direction: rtl;
+    vertical-align: top;
+    width: 100% !important;
+}
+
+.btl_TopActions {
+    float: left;
+    padding: 0 !important;
+    text-align: left;
+}
+
+.btl_FirstRow {
+    height: 34px;
+}
+
+
+.btl_MainTableSpaceColumnFar {
+    background-image: url("https://www.btl.gov.il/_layouts/images/btl.website/seperator_hbox.gif");
+    background-repeat: repeat-y;
+    font-size: 0;
+    width: 6px;
+}
+
+/*inputs*/
+input[type="text"], input[type="password"], input[type="submit"], textarea, select, input[type="button"], button {
+  padding: 6px 12px;
+  font-size: 11pt;
+  font-weight: bold;
+  line-height: 1.428571429;
+  color: #222;
+  vertical-align: middle;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  min-width: 4em!important;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+          transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+.input[type="text"]:hover,
+input[type="password"]:hover, 
+ input[type="submit"]:hover,
+input[type="button"]:hover  {
+               background-color: #327bb3!important; 
+}
+
+input[type="text"], input[type="password"], select, textarea
+{
+    margin-right: 5px;
+}
+input[type="submit"], input[type="button"]
+{
+  background-color: #327bb3;
+  background-image:none;
+  border-color: #357ebd;
+  color:#fff;
+}
+/*
+input[type="text"]:focus, input[type="password"]:focus, input[type="submit"]:focus, input[type="button"]:focus,
+textarea:focus, select:focus, .select:focus {
+  border-color: #66afe9!important;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}*/
+
+       input[type="text"], input[type="password"], select, textarea {
+    font-weight:normal}
+    input[type=button]:hover, input[type=reset]:hover, input[type=submit]:hover, button:hover {
+    cursor:pointer}
+    input[type="submit"]:hover, input[type="button"]:hover {
+    background-color: #154D77!important;
+}
+      
+input[type="checkbox"],
+input[type="radio"] {
+  padding: 0;
+  box-sizing: border-box;
+}
+input[disabled],
+input[readonly],
+select[disabled],
+select[readonly],
+textarea[disabled],
+textarea[readonly] {
+  cursor: not-allowed;
+  background-color: #eeeeee;
+}
+
+.message{
+color:#bd0000;
+font-size: 0.9em;
+font-weight:bold;}
+
+.error
+{
+font-size: 0.9em;
+font-weight:bold;
+}
+
+label.error
+{
+color:#bd0000;
+
+	display:block;
+}
+
+
+/* add .right-panel.*/
+.right-panel h2 {
+    color: #04a9e3;
+    border-bottom: #dddddd 1px solid;
+    padding: 5px 0;
+    margin: 4px 0;
+    font-size: 1.2em;
+}
+
+.homepage.right-panel h2 {
+    color: #0991c1;
+    border-bottom: #dddddd 1px solid;
+    border-radius: 0;
+    padding: 5px 0;
+    margin: 4px 0;
+    font-size: 1.2em;
+    background: none;
+    display: block !important;
+    cursor: default;
+}
+
+
+#rightPanel h2 a {
+    display: block;
+    outline: none;
+}
+
+.grid-container {
+    max-width: 1020px;
+    width: 1020px;
+    padding: 0;
+}
+
+.envelopeDiv {
+    padding: 0;
+}
+
+    .envelopeDiv * {
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+    }
+
+
+header {
+    padding: 3px 0 0 !important;
+}
+
+/* GSS */
+
+.main-site-search input[type="text"] {font-size: 1em; width:80%; min-width:1em!important; display:table-cell;float: right;}
+
+.main-site-search input[type="button"] {
+    padding: 0;
+    display:table-cell;
+    min-width: 0em!important;
+    width: 16%;
+    height: 2.7em;
+    margin-right: 5px;
+    background: url("https://www.btl.gov.il/_layouts/15/images/btl.website/new/sprite/ico-search.png") no-repeat scroll center center #2e86b1;
+        float: left;
+}
+
+.ms-WPBody .main-site-search {
+    float: right;
+}
+.main-site-search {
+    float: left;
+    margin: 1.25em;
+    font-size: 1.2em;
+    display:table;
+}
+
+.middle-panel .main-site-search {
+    width: 60%;
+}
+
+.gsc-input-box {height: auto!important;border-radius:5px;}
+.gsib_a {
+    padding: 0em;
+    box-shadow:0 0 0!important;
+    border-radius:5px
+}
+.gsc-input-box-focus,
+.gsc-input-box-hover
+ {
+    box-shadow: 0 0 0!important;
+    background:white;
+    border-radius:5px
+}
+.gsib_a input {padding:.5em!important;background:white!important;text-indent:5px!important;box-shadow:0 0 0!important;border-radius: 0px!important;margin-right:5px!important;width:99%!important;}
+
+td.gsib_a {    padding: 0;}
+td.gsib_b .gscb_a {margin-top:3px}
+
+.gsc-search-button.gsc-search-button-v2 {
+    background: no-repeat scroll center center #2e86b1 url("https://www.btl.gov.il/_layouts/15/images/btl.website/new/sprite/ico-search.png");
+        border-color: #357ebd;
+        width:3.5em!important;
+        height:3.5em!important;
+        box-sizing:border-box;
+        border-radius:4px
+        }
+
+.gsc-search-button.gsc-search-button-v2:hover {background: no-repeat scroll center center url("https://www.btl.gov.il/_layouts/15/images/btl.website/new/sprite/ico-search.png") #154D77!important;}
+
+        /* trademark on autocomplete*/
+table.gsc-completion-container tr td div{display: none}
+table.gsc-completion-container tr td div.gsq_a{display: block}
+/*  SNIFIM SEARCH  */
+
+.left-panel .snifim-search {
+    padding: 1em 0 0.5em;
+        display: table;
+    width: 100%;
+}
+
+
+.left-panel .snifim-search input.snifimSearch {
+min-width: 1em!important;
+    font-size: 0.8em;
+    width: 65%;
+    padding: 0.4em;
+    margin: 0;
+    display: table-cell;
+    float: right;
+    }
+
+
+.left-panel .snifim-search input[type="submit"] {
+font-size: 0.7em;
+    padding: 0.6em 0;
+    margin: 1px 2% 0 0;
+    display: table-cell;
+    width: 33%;
+    text-align: center;
+    float: left;
+    }
+
+
+.search-box .snifim-search {
+    font-size: 0.7em;
+    margin: 1em -.5em;
+}
+
+
+
+
+
+
+/* PROGRESS BAR*/
+#ProgessBackground {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: Gray;
+    filter: alpha(opacity=40);
+    opacity: 0.4;
+    z-index: 10000;
+}
+
+#Progress {
+    position: fixed;
+    bottom: 50%;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    z-index: 10001;
+}
+
+    #Progress img {
+        margin: 0 auto;
+        box-shadow: 0px 0px 15px black;
+        border-radius: 5px;
+    }
+
+.contact-options {
+direction:rtl;
+width:100%;
+display:table;
+}
+
+.contact-options a {
+margin-bottom:18px;
+background:#efefef;
+box-sizing:border-box;
+padding:0 10px;
+border-radius:5px;
+color:inherit;
+display:table;
+width:100%;
+}
+
+.contact-options a:hover {
+text-decoration:none;
+}
+
+.contact-options p, .contact-options h2 {
+margin:0;
+padding:10px;
+display:table-cell;
+}
+
+.contact-options p {
+padding-right:10px !important;
+}
+
+.contact-options h2 {
+width:33%;
+border-left:1PX SOLID #fff;
+}
+
+
+/*snifim*/
+
+      
+.DetailsTable td {
+    padding: 4px;
+}
+
+.KabalatKahal {
+    width: 100% !important;
+}
+
+.DetailsTable .KabalatKahal td {
+    border-bottom: 1px #88B7E2 solid;
+}
+
+
+.search-box {
+    background: none repeat scroll 0 0 #EFEFEF;
+    border-radius: 5px 5px 5px 5px;
+    padding: 5px 10px;
+}
+
+    .search-box input {
+        font-size: 1em !important;
+    }
+
+
+table.DetailsTable {
+    width: 100%;
+}    
+
+
+a.MapIcon {
+background: #FDEFCF;
+    color: #0D4E7B;
+    padding: 0.2em 0.8em;
+    text-decoration: none;
+    border-radius: 0.3em;
+    FONT-SIZE: 0.9em;
+    border: 1px solid #E8CD92;
+    transition: 0.2s ease;
+}
+
+a.MapIcon:hover {
+    background: #FFD44B;
+    transition: 0.2s ease;
+    color: black;
+}
+
+div#SnifimTabs {
+    margin-top: 1em;
+}
+
+#SnifimTabs th {
+	text-align: right;
+    padding: 0.5em;
+    border-left: 1px solid white;
+}
+
+#SnifimTabs .tbl {
+    float: right;
+}
+
+#SnifimTabs ul.tablist {
+    list-style-image: none;
+    width: 101%;
+    margin: 10px -0.5% 10px;
+    border-bottom: 1px #0044bc solid;
+    float: right;
+    padding: 0;
+}
+
+
+#SnifimTabs ul.tablist .tab.selected, 
+#SnifimTabs ul.tablist .tab:hover {
+    background: #e2f8ff;
+    color: #0044bc;
+    border-top: #0044bc 1px solid;
+    border-left: #0044bc 1px solid;
+    border-right: #0044bc 1px solid;
+    border-bottom: #e2f8ff 2px solid;
+}
+
+#SnifimTabs ul.tablist .tab {
+    background: #eee;
+    color: #5f5f5f;
+    padding: 0.4em 0;
+    width: 24%;
+    border-bottom: 1px solid #eee;
+    border-radius: 0.5em 0.5em 0 0;
+    margin: 0 0.5% -2px;
+    float: right;
+    text-align: center;
+    font-size: 0.9em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+
+.KabalatKahal td {
+    padding: 1.2em 0!important;
+}
+
+.td1-snifim > td:first-child {
+    padding: 1.2em 0 1.2em 0.5em;
+}
+
+.td1-snifim > td:first-child a {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+
+td.yamim {
+    white-space: nowrap;
+    width: 15%;
+}
+
+
+td.shaot {
+    width: 20%;
+    white-space: nowrap;
+    border-right: 1px white solid;
+    padding-right: 5px;
+}
+
+
+td.nosse {
+    border-right: 1px white solid;
+    padding-right: 5px;
+}
+
+
+
+.tbl caption,  .tbl caption h3 {
+    font-size: 1em!important;
+    color: #FFFFFF;
+}
+    
+    
+/* Site map*/
+.smwp-list, .smwp-list ul {
+    list-style: none outside none !important;
+}
+
+/*ListStyle*/
+.il-ItemTitleA:hover {
+    text-decoration: none !important;
+    color: #0044b7;
+}
+
+.spanLink {
+    display: block;
+    width: 89%;
+}
+
+/* 60 years*/
+.sixty-years .il-ItemContentTableTd_gray {
+    border-radius: 10px;
+    background: #e5f7fe;
+}
+
+.sixty-years .il-ItemTitleTd_gray {
+    border-radius: 10px 10px 0 0;
+    background: url(https://www.btl.gov.il/_layouts/15/images/btl.website/BTL60Years/block-top-bg.png) repeat-x top #DDF3FC;
+    border-bottom: 1px white solid;
+}
+
+.sixty-years .il-ItemTitleA {
+    color: #0c84c9;
+}
+
+.sixty-years .opener-txt {
+    font-size: 1em !important;
+}
+
+.sixty-years .il-ItemDescTd li {
+    padding: 5px 0;
+    border-bottom: 1px solid white;
+}
+
+
+.sixty-years .nekudat-ziyun .il-ItemTitleA {
+    background: url(https://www.btl.gov.il/_layouts/15/images/btl.website/BTL60Years/star.png) right 5px no-repeat;
+    padding: 5px 30px 5px 0;
+    font-size: 1.3em !important;
+}
+
+.sixty-years .mankalim-box .il-ItemTitleA {
+    color: #007dc6;
+}
+
+.sixty-years .il-ItemContentTableTd_gray.mankalim-box,
+.sixty-years .mankalim-box .il-ItemTitleTd_gray {
+    background: none !important;
+}
+
+.sixty-years .mankalim-box .il-ItemDescTd {
+    float: right;
+    width: 31%;
+    min-height: 60px;
+    padding: 10px;
+    border: 1px orange solid;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px silver;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 10px 8px;
+    font-weight: bold;
+}
+
+    .sixty-years .mankalim-box .il-ItemDescTd img {
+        float: right;
+        margin: 0 0 0 10px;
+    }
+
+.sixty-years .album-box {
+    clear: both;
+}
+
+    .sixty-years .il-ItemContentTableTd_gray.album-box,
+    .sixty-years .album-box .il-ItemTitleTd_gray {
+        background: none !important;
+    }
+
+
+    .sixty-years .album-box .il-ItemDescTd {
+        background: url(https://www.btl.gov.il/_layouts/15/images/btl.website/BTL60Years/album-bg.png) repeat-x #8bcae8;
+        width: 100%;
+        border-radius: 5px;
+        padding: 14px 0;
+    }
+
+.home-album.album-box .il-ItemDescTd {
+    background: url(https://www.btl.gov.il/_layouts/15/images/btl.website/BTL60Years/home-album-bg.png) repeat-x;
+    width: 100%;
+    border-radius: 5px;
+    padding: 14px 0;
+}
+
+.home-album.album-box,
+.home-album.album-box .il-ItemDescTd {
+    float: left;
+    width: 100%;
+}
+
+    .home-album.album-box a {
+        float: right;
+        width: 16.3%;
+    }
+
+        .home-album.album-box img,
+        .home-album.album-box a strong {
+            float: left;
+            text-align: center;
+        }
+
+        .home-album.album-box a strong {
+            width: 100%;
+            color: black;
+            margin-top: 4px;
+        }
+
+.pix-50 {
+    background-color: #8bcae8 !important;
+}
+
+.home-album {
+    margin: 10px 0 20px;
+}
+
+.home-title {
+    margin-bottom: -56px;
+}
+
+/*multiselect*/
+
+.ultraselectWrapper {width:60%;}
+
+.ultraselect {max-width:100%!important;width:100%}
+
+.ultraselect .select span.arrow
+{
+	left: 0;
+    right: inherit!important;
+}
+
+.ultraselect  input[type=checkbox]:not(old) + label {
+    margin-left: 0px!important;
+    margin-right: 0!important;
+    width: 100%!important;
+    box-sizing: border-box;
+    padding-left: .5em!important;
+}
+
+
+.ultraselect input[type=checkbox]:not(old) {    width: .002em!important; }
+
+
+/* inputs */
+
+input[type="text"], input[type="password"], input[type="submit"], textarea, select, input[type="button"], button ,.select {
+  padding: 6px 12px;
+  font-size: 11pt;
+  line-height: 1.428571429;
+  color: #222;
+  vertical-align: middle;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  min-width: 4em!important;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+          transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+.input[type="text"]:hover,
+input[type="password"]:hover, 
+ input[type="submit"]:hover,
+input[type="button"]:hover  {
+               background-color: #327bb3!important; 
+}
+
+input[type="text"], input[type="password"], select , textarea, .ultraselectWrapper
+{
+    margin-right: 5px;
+}
+input[type="submit"], input[type="button"]
+{
+  background-color: #327bb3;
+  background-image:none;
+  border-color: #357ebd;
+  color:#fff;
+}
+
+input[type="image"]:focus,
+input[type="text"]:focus, 
+input[type="password"]:focus, 
+input[type="submit"]:focus, 
+input[type="button"]:focus,
+textarea:focus, 
+select:focus, .select:focus
+ {
+border-color: #d97b00!important;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 171, 1, 0.53);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 171, 1, 0.74);
+    }
+    
+    .select:focus {outline: 1px solid #d97b00; border-style:solid!important}
+    
+input[type="image"]:focus,
+input[type="radio"]:focus {
+	outline:1px solid #d97b00;
+}
+
+       input[type="text"], input[type="password"], select, textarea {
+    font-weight:normal}
+    input[type=button]:hover, input[type=reset]:hover, input[type=submit]:hover, button:hover {
+    cursor:pointer}
+    input[type="submit"]:hover, input[type="button"]:hover {
+    background-color: #154D77!important;
+}
+  .Calculators  label {vertical-align: middle} 
+
+/*
+input.rbl-item[type=radio] {
+    float: right;
+    width: 3%;
+    margin-top: 5px;
+}
+
+input.rbl-item[type=radio] + label {
+    float: left;
+    width: 95%;
+    line-height: 17px;
+    margin-bottom: 10px;
+}
+
+input.rbl-item[type=radio] + label + br {
+    clear: both;
+}
+*/
+/*  search  */
+
+.top-search *,
+.top-search {
+    float: right;
+    font-size: 0.9em;
+}
+
+.top-search {
+    margin-top: 3px;
+}
+
+.SnifSearch .top-search *, .SnifSearch .top-search {
+    float: none !important;
+}
+
+    .SnifSearch .top-search input[type="text"] {
+        width: 180px !important;
+    }
+
+header .separator {
+    width: 1px;
+    height: 19px;
+    background: #45afeb;
+    margin: 0px 5px 0;
+    float: right;
+    clear: none;
+    border: 0;
+}
+
+header .languages .separator {
+    margin-top: 2px;
+}
+
+
+header .languages .font-sizes {
+    float: left;
+}
+
+
+header a:hover , header a:focus {
+    color: #ffc000;
+}
+.moked strong {
+	color: white;
+    font-weight: normal;
+    font-size: 0.9em;
+    display: block;
+    padding-top: 0.3em;
+    background: url(https://www.btl.gov.il/_layouts/15/images/btl.website/new/sprite/ico-phone.png) right 0.1em no-repeat;
+    padding-right: 1.4em;}
+
+.moked strong span {
+	font-weight:bold;
+}
+
+
+/*
+.top-search input[type="text"] {
+    border: 1px solid #9ca7ad;
+    border-radius: 4px;
+    padding: 1px 3px;
+    margin: 0;
+}
+
+.link-search input[type="button"],
+.top-search input[type="button"], .top-search input[type="submit"] {
+    color: #FFFFFF;
+    background-color: #004b7c;
+    border-radius: 3px !important;
+    font-family: Arial;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 2px 10px 1px;
+    margin: 0 3px;
+    border: none;
+    -webkit-transition: background ease 0.2s;
+    -moz-transition: background ease 0.2s;
+    -o-transition: background ease 0.2s;
+    transition: background ease 0.2s;
+    cursor: pointer;
+}
+
+    .link-search input[type="button"]:hover,
+    .top-search input[type="submit"]:hover,
+    .top-search input[type="button"]:hover { 
+        color: #ffca3a;
+        -webkit-transition: background 0.2s ease;
+        -moz-transition: background ease 0.2s;
+        -o-transition: background ease 0.2s;
+        transition: background ease 0.2s;
+        text-shadow: 0 0 5px #666;
+    }
+
+
+
+.top-search input:focus, .languages a:focus{
+    outline: 1px solid #FFAB01;
+
+}
+*/
+/* Tenders */
+.tender-toolbar {
+    float: right;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.tender hr {
+    clear: both;
+}
+
+.tender-content {
+    margin: 10px 0 30px;
+}
+
+.tender-toolbar .side-menu-btn {
+    float: left;
+    margin: 10px 4px 0;
+    padding: 0;
+    width: 98px;
+    text-align: center;
+}
+
+
+.tender .row {
+    float: right;
+    width: 100%;
+}
+
+    .tender .row b {
+        float: right;
+        width: 18%;
+        margin: 5px 0;
+    }
+
+    .tender .row strong {
+        float: right;
+        width: 18%;
+        margin: 5px 0;
+    }
+
+    .tender .row span {
+        float: right;
+        width: 80%;
+        margin: 5px 0;
+    }
+        
+    .tender fieldset {
+        border: 1px solid #f88;
+        border-radius: 5px;
+        padding: 3%;
+        margin: 10px 0;
+        float: right;
+        background-image: linear-gradient(#ffffff, #ffdede);
+        width: 100%;
+    }
+
+.tender fieldset legend {
+    font-weight: bold;
+    background: #fff;
+    padding: 0 10px;
+}
+
+
+.tender fieldset * {
+    float: none!important;
+}
+
+.tender h3
+{
+	font-weight:bold;
+}
+
+.inline
+{
+	display:inline;
+}
+.tbl-type caption
+{
+	text-align:right;
+	color:#0044B7;
+	font-size:1.1em;
+	font-weight:bold;
+}
+.tbl-type {
+       margin-top: 10px;
+  
+}
+
+a.FAQFile,
+a.tenferFile, a.PayIcon {
+    line-height: 1.4em;
+    float: right;
+    width: 7em;
+    text-decoration: none!important;
+    font-weight: 600;
+}
+
+.side-menu-btn a.FAQFile,  /*in the michraz page*/
+.side-menu-btn a.tenferFile {
+    width: 7em;
+}
+
+a.PayIcon {
+	line-height: 2.6em;}
+
+a.FAQFile:before,
+a.tenferFile:before, a.PayIcon {
+    float: right;
+    margin: 1px 0 0 7px;
+}
+
+.side-menu-btn a.FAQFile:before,
+.side-menu-btn a.tenferFile:before {
+    margin: 1px 4px 0 1px;
+}
+
+a.PayIcon:before {
+    content: url(https://www.btl.gov.il/_layouts/15/images/btl.website/new/sprite/tashlumim-icon.png);
+    height: 25px!important;
+    margin-top: 6px;
+    width: 19px!important;
+}
+
+
+a.FAQFile:before {    content: url(https://www.btl.gov.il/_layouts/15/images/btl.website/new/sprite/faq-icon.png);}
+a.tenferFile:before {    content: url(https://www.btl.gov.il/_layouts/15/images/btl.website/new/sprite/pdf-download.png);}
+a.pdfFile:before {        content: url(https://www.btl.gov.il/_layouts/images/btl.website/pdf.gif);    margin: 8px 0px 0 -17px;}
+a.xls:before , a.xlsx:before {        content: url(https://www.btl.gov.il/_layouts/images/btl.website/xls.gif);    margin: 8px 0px 0 -17px;}
+a.pdf:before {        content: url(https://www.btl.gov.il/_layouts/images/btl.website/pdf.gif);    margin: 8px 0px 0 -17px;}
+a.pps:before , a.ppt:before {        content: url(https://www.btl.gov.il/_layouts/images/btl.website/pps.gif);    margin: 8px 0px 0 -17px;}
+a.doc:before , a.docx:before  , a.rtf:before {        content: url(https://www.btl.gov.il/_layouts/images/btl.website/doc.gif);    margin: 8px 0px 0 -17px;}
+
+
+a.order:before {
+    content: url(https://www.btl.gov.il/_layouts/15/images/btl.website/icon_oreder.gif);
+    margin-top: 6px;
+    height: 20px!important;
+    width: 20px!important;
+    margin:5px 8px 0 -6px;
+}
+
+a.milui:before {
+    content: url(https://www.btl.gov.il/_layouts/15/images/btl.website/icon_edit.gif);
+    height: 20px!important;
+    margin-top: 6px;
+    width: 8px!important;
+    margin: 5px 8px 0 -6px;
+}
+
+.naguishText  a.icon:before {
+    content: url('https://www.btl.gov.il/_layouts/15/images/btl.website/new/sprite/ico-nagishut.png');
+        height: 20px!important;
+    margin-top: 6px;
+    width: 8px!important;
+    margin: 5px 8px 0 5px;
+}
+
+span.side-menu-btn.naguishText {
+    width: 120px;
+}
+
+.tender-toolbar .side-menu-btn a:before {
+    height: 34px;
+    width: 34px;
+    float: right;
+}
+
+
+.tender-toolbar .side-menu-btn a {
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 3em;
+    display: block;
+    border-radius: 10px;
+    font-size:1.1em}
+
+.tender-toolbar .side-menu-btn a.tenferFile ,.tender-toolbar .side-menu-btn a.FAQFile{
+    line-height: 1.4em;
+    font-size: 1em;
+    text-align: right;
+    padding: 0.2em 0;
+}
+
+.tender-details h3 {
+	font-size:1.3em;
+	margin:0.5em 0
+}
+
+
+
+.mil-firstTDOpen > a {
+	font-size:1.3em
+}
+
+
+.ms-formfieldvaluecontainer {
+/*float:right;*/
+width:100%;
+}
+
+#FacebookLink {
+    display: none;
+}
+
+
+/*  languages   */
+
+.languages {
+    float: left;
+}
+
+    .languages * {
+        float: right;
+        color: #fff;
+    }
+
+    .languages label {
+        font-weight: bold;
+        font-size: 0.9em;
+        padding: 0 0 0 5px !important;
+        margin-top: 2px;
+    }
+
+    .languages a {
+        font-weight: bold;
+        vertical-align: bottom !important;
+        display: table-cell;
+        color: #fff;
+    }
+
+        .font-sizes a.small, .languages a.small {
+            font-size: 0.8em !important;
+            padding: 0 5px !important;
+            margin-top: 5px;
+        }
+
+        .font-sizes a.medium, .languages a.medium {
+            font-size: 1em !important;
+            padding: 0 5px !important;
+            margin-top: 2px;
+        }
+
+        .font-sizes a.big, .languages a.big {
+            font-size: 1.4em !important;
+            padding: 0 5px !important;
+            margin-top: -4px;
+        }
+
+    .font-sizes span.txt12, .languages span.txt12 {
+        margin: 5px 0px 0 5px !important;
+    }
+
+
+    .languages table {
+        float: left;
+    }
+
+.banner {
+    background: url(https://www.btl.gov.il/_layouts/15/images/btl.website/new/top-bg.png) left white no-repeat;
+    float: right;
+    height: 86px;
+    border-radius: 5px 5px 0 0;
+    margin-top: 5px;
+    padding: 0;
+}
+
+    .banner .moked {
+        float: left;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        background: url(https://www.btl.gov.il/_layouts/15/images/btl.website/new/sprite/ico-moked.png) right top no-repeat;
+        padding: 5px 43px 3px 0;
+        width: 196px;
+        margin: 22px 0px 0 10px;
+        border-radius: 5px;
+        -webkit-transition: background 0.4s ease;
+        -moz-transition: background ease 0.4s;
+        -o-transition: background ease 0.4s;
+        transition: background ease 0.4s;
+    }
+
+        .banner .moked:hover {
+            background-color: white;
+            -webkit-transition: background 0.4s ease;
+            -moz-transition: background ease 0.4s;
+            -o-transition: background ease 0.4s;
+            transition: background ease 0.4s;
+        }
+
+       .banner .moked strong {
+            color: #044a85;
+            font-size: 0.9em;
+            float: left;
+            text-shadow: 0 0 10px #fff;
+        }
+
+       header .moked a {
+            display: none;
+        }
+
+a.logo {
+    float: right;
+    width: 388px;
+    height: 86px;
+    background: url(https://www.btl.gov.il/_layouts/15/images/btl.website/new/sprite/logo.png) no-repeat;
+}
+
+
+
+
+.link-home a {
+    float: right;
+    background: url(https://www.btl.gov.il/_layouts/15/images/btl.website/new/sprite/Btl_HomePage.gif) no-repeat;
+    width: 21px;
+    height: 18px;
+    margin: 7px 0 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.link-home:hover a {
+    margin: 7px 5px 0 -5px;
+}
+
+    .link-home:hover a:hover , .link-home:hover a:focus {
+        margin: 7px 0px 0 0px;
+    }
+
+li.link-home:hover {
+    background-color: transparent !important;
+    border: 0 !important;
+    margin: 7px 5px 0 -5px !important;
+}
+
+.link-search,
+.link-aruzim {
+    display: none !important;
+}
+
+
+.megamenu li ul {
+    padding: 5px;
+    width: 100%;
+    float: right;
+    list-style-position: inside;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.megamenu li li {
+    background: url(https://www.btl.gov.il/_layouts/15/images/btl.website/new/sprite/bull-menu.png) right 10px no-repeat;
+    border-bottom: 1px solid white;
+    float: right;
+    width: 49% !important;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+.megamenu .dropdown_fullwidth.link-hozrim li {
+    width: 100% !important;
+}
+
+.megamenu .link-search input[type="text"] {
+    width: 70%;
+    margin: 0.5em 0.8em 0.5em 0;
+    font-size: 1.3em;
+    padding: 0.3em;
+    border-radius: 10px;
+}
+
+.megamenu .link-search input[type="button"] {
+    background-image: none;
+    font-size: 1.3em;
+    padding: 0.3em 1em;
+    border-radius: 10px;
+}
+
+.megamenu .link-search h4 {
+    color: white;
+    font-size: 1.2em;
+    padding: 0.7em 1em;
+    float: right;
+    width: 100%;
+}
+
+
+.main-content {
+    margin-top: 8px;
+    background: white;
+    display: table;
+    width: 100%;
+}
+
+.grid-container.main-content 
+{
+	display:block;
+}
+
+
+/*
+
+#mainContent {
+    border: 1px solid transparent;
+}
+ h1:focus #mainContent {
+    border-color: #FF9F05;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 171, 1, 0.53);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 171, 1, 0.74);
+    border-width: 1px;
+    border-style: solid;
+}
+
+*/
+
+.middle-panel,
+.right-panel,
+.left-panel {
+    float: none;
+    display: table-cell;
+}
+
+.right-panel {
+    border-left: 2px solid #EAEAEA;
+}
+
+.left-panel {
+    border-right: 2px solid #EAEAEA;
+}
+
+
+
+.middle-panel {
+    border-right: 0;
+    border-left: 0;
+    min-height: 476px;
+}
+
+
+ul.breadcrmps-bg {
+    list-style-position: inside;
+    margin: 10px 5px 0 0!important;
+    padding: 0;
+}
+
+ul.breadcrmps-bg li {
+    display: inline-block;
+}
+
+.imgclass {
+    float: left; /*text-align:left; */
+    margin: 5px;
+}
+
+.SiteMapList img {
+    background: url("/SiteCollectionImages/arrow_rtl.gif");
+    width: 0px;
+    height: 0px;
+    padding: 5px;
+}
+
+.SiteMapList {
+    list-style: none !important;
+}
+
+
+.zhuyot-lnks * {
+    float: right;
+    color: #444444;
+    line-height: 1.3em;
+}
+
+.zhuyot-lnks a:visited {
+    color: #444444;
+}
+
+.zhuyot-lnks h4 {
+    font-size: 1.1em !important;
+}
+/*.zhuyot-lnks ul {width:100%;}*/
+.middle-panel .zhuyot-lnks ul {
+    width: 100%;
+    list-style-image: none !important;
+    list-style-type: none !important;
+    margin: 0 !important;
+}
+
+    .middle-panel .zhuyot-lnks ul ul {
+        width: 100%;
+        list-style-image: none;
+        list-style-type: none;
+    }
+
+    .middle-panel .zhuyot-lnks ul li h4, .zhuyot-lnks ul li h4 a {
+        color: #06457b !important;
+        font-weight: bold;
+    }
+
+    .middle-panel .zhuyot-lnks ul li {
+        padding: 0px 33px 10px 0;
+        width: 100%;
+        background: url(https://www.btl.gov.il/_layouts/15/images/btl.website/new/sprite/bullet-blue.png) no-repeat;
+        background-position: right top;
+        margin: 5px 0px 0 0 !important;
+    }
+        /*Actions-blue-arrow-undo-icon*/
+        .middle-panel .zhuyot-lnks ul li li {
+            font-weight: normal;
+            padding: 0;
+            width: auto;
+            background: none;
+            margin: 0;
+            height: 1.3em;
+            display: inline !important;
+            float: none !important;
+        }
+
+            .middle-panel .zhuyot-lnks ul li li a {
+                padding: 0 1px;
+                font-size: 0.9em;
+                float: none !important;
+                text-decoration:none;
+            }
+                /*add*/
+                .middle-panel .zhuyot-lnks ul li li a:hover, .middle-panel .zhuyot-lnks ul li li h4 a:hover {
+                    color: #0066FF;
+                }
+               .middle-panel .zhuyot-lnks  a:focus, .middle-panel .zhuyot-lnks a:focus 
+				{
+			 outline:orange solid 1px;
+					
+				}
+                .middle-panel .zhuyot-lnks ul li li a:before {
+                    content: ' • ';
+                    text-decoration: none;
+                }
+
+ .middle-panel .zhuyot-lnks ul li li a:before:hover {
+                    text-decoration: none;
+                }
+
+        .middle-panel .zhuyot-lnks ul li ul > :first-child a:before {
+            content: ' ';
+        }
+
+
+
+.side-menu-btn , .homepage.side-menu-btn.openInHomePageBtn  {
+    background: #eaeaea;
+    border-radius: 10px;
+    float: right;
+    width: 100%;
+    color: #06457b !important;
+    font-size: 1em;
+    font-weight: bold;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0.4em;
+    margin: 10px 0 0 0;
+    cursor: pointer;
+    transition:0.2s ease;
+    border: 1px solid transparent;
+}
+
+.side-menu-btn:hover , .homepage.side-menu-btn.openInHomePageBtn:hover  {
+	transition:0.2s ease;
+	border: 1px solid silver;
+
+}
+
+
+.middle-panel .fullwidth-banner.side-menu-btn {
+    background-color: #D1F0FB;
+    text-align:center;
+}
+
+.middle-panel .fullwidth-banner.side-menu-btn span {
+    font-size: 1.2em;
+    color: #0044B7;
+    width:100%;
+}
+
+.middle-panel .fullwidth-banner.side-menu-btn:hover {
+    border: 1px solid #97D0E4;
+}
+
+
+
+
+
+
+
+/*change label with span*/
+a.side-menu-btn:hover span {
+    color: #0066FF;
+}
+
+.side-menu-btn span {
+    float: right;
+    line-height: 32px;
+    margin-right: 0.3em;
+}
+
+.side-menu-btn.ico-tfasim strong,
+.side-menu-btn.ico-berurim strong,
+.side-menu-btn.ico-snifim strong {
+    width: 33px;
+    height: 33px;
+    float: right;
+}
+
+.side-menu-btn.ico-snifim strong {
+    background: url(https://www.btl.gov.il/_layouts/15/images/btl.website/new/sprite/ico-snifim.png) no-repeat;
+}
+
+.side-menu-btn.ico-berurim strong {
+    background: url(https://www.btl.gov.il/_layouts/15/images/btl.website/new/sprite/ico-berurim.png) no-repeat;
+}
+
+.side-menu-btn.ico-tfasim strong {
+    background: url(https://www.btl.gov.il/_layouts/15/images/btl.website/new/sprite/ico-tfasim.png) no-repeat;
+}
+
+.homepage.side-menu-btn.ico-teviot.openInHomePageBtn {
+    background-color: #eaeaea;
+}
+
+.side-menu-btn.ico-teviot.openInHomePageBtn {
+    background: url("https://www.btl.gov.il/_layouts/15/images/btl.website/new/sprite/icon-online-form.png") no-repeat scroll 142px 11px #eaeaea;
+    padding-right: 38px;
+}
+
+.side-menu-btn.ico-calc.openInHomePageBtn {
+    background: url("https://www.btl.gov.il/_layouts/15/images/btl.website/new/sprite/icon-machevon.png") no-repeat scroll 142px 5px #eaeaea;
+    padding-right: 38px;
+}
+
+
+.aruzim-open .side-menu-btn.ico-teviot.openInHomePageBtn 
+{
+    Background-position: 138px 11px;
+Background-color:white!important;
+}
+
+.aruzim-open .side-menu-btn.ico-calc.openInHomePageBtn
+{
+    Background-position: 139px 6px;
+Background-color:white!important;
+}
+
+
+.side-menu-btn.ico-teviot.openInHomePageBtn span {
+    line-height: 18px;
+}
+
+
+
+
+/*change label with span*/
+a.side-menu-btn:hover label {
+    color: #0066FF;
+}
+
+.side-menu-btn label {
+    float: right;
+    line-height: 32px;
+    margin-right: 0.3em;
+}
+
+.side-menu-btn.ico-tfasim b,
+.side-menu-btn.ico-berurim b,
+.side-menu-btn.ico-snifim b {
+    width: 33px;
+    height: 33px;
+    float: right;
+}
+
+.side-menu-btn.ico-snifim b {
+    background: url(https://www.btl.gov.il/_layouts/15/images/btl.website/new/sprite/ico-snifim.png) no-repeat;
+}
+
+.side-menu-btn.ico-berurim b {
+    background: url(https://www.btl.gov.il/_layouts/15/images/btl.website/new/sprite/ico-berurim.png) no-repeat;
+}
+
+.side-menu-btn.ico-tfasim b {
+    background: url(https://www.btl.gov.il/_layouts/15/images/btl.website/new/sprite/ico-tfasim.png) no-repeat;
+}
+
+.side-menu-btn.ico-openForm, .side-menu-btn.ico-KolZchut /*ossim*/ {
+    display: none !important;
+}
+
+
+.aruzim-menu a, .aruzim-menu a:visited {
+    float: right;
+    width: 100%;
+    border-bottom: 1px #ddd solid;
+    color: #486074 !important;
+    font-weight: bold;
+    font-size: 0.9em;
+    padding: 8px 35px 8px 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+
+background: url(https://www.btl.gov.il/_layouts/15/images/btl.website/new/sprite/right-menu-sprite-v2.png) top right no-repeat;
+
+
+}
+    /*add text-decoration:none;*/
+
+
+    .aruzim-menu a.code {
+ 	background-position: 140px -87px;
+
+    }
+   .aruzim-menu a.code:hover {
+ 	 background-position: 140px -131px;
+    }
+
+
+    .aruzim-menu a.payments {
+    background-position: 140px -1152px;
+    }
+
+
+    .aruzim-menu a.payments:hover {
+    background-position: 140px -1196px;
+
+    }
+
+    .aruzim-menu a.calc {
+	   background-position: 140px -5px;
+    }
+
+    .aruzim-menu a.calc:hover {
+	   background-position: 140px -49px;
+    }
+
+  
+   
+
+    .aruzim-menu a.forms {
+        background-position:137px -445px
+    }
+
+  .aruzim-menu a.forms:hover {
+        background-position:137px -489px
+    }
+
+    .aruzim-menu a.dmey {
+        background-position:140px -269px;
+    }
+ .aruzim-menu a.dmey:hover {
+                background-position:140px -313px;
+    }
+        
+    .aruzim-menu a.phone {
+    background-position: 140px -1237px;
+    }
+
+  .aruzim-menu a.phone:hover {
+    background-position: 140px -1281px;
+
+    }
+
+    .aruzim-menu a.kupot {
+        background-position:140px -799px;
+    }
+
+  .aruzim-menu a.kupot:hover {
+	background-position:140px -843px;
+    }
+    .aruzim-menu a.faq {
+        background-position:139px -359px;
+    }
+  .aruzim-menu a.faq:hover {
+        background-position:139px -403px;
+    }
+    .aruzim-menu a.laws {
+        background-position:140px -887px;
+    }
+ .aruzim-menu a.laws:hover {
+                background-position:140px -931px;
+    }
+    .aruzim-menu a.mob {
+    background-position: 140px -973px;
+    }
+     .aruzim-menu a.mob:hover {
+        background-position: 140px -1017px;
+    }
+
+    .aruzim-menu a.odot {
+    background-position: 140px -1061px;
+    }
+  .aruzim-menu a.odot:hover {
+    background-position: 140px -1105px;
+
+    }
+    .aruzim-menu a.hozrim {
+        background-position:139px -622px
+    }
+ .aruzim-menu a.hozrim:hover {
+        background-position:139px -666px
+    }
+    .aruzim-menu a.ishur {
+        background-position:140px -709px
+    }
+    .aruzim-menu a.ishur:hover {
+        background-position:140px -753px
+    }
+
+    .aruzim-menu a.kesher {
+        display:none;
+       /*     background-position: 140px -1413px;*/
+    }
+        .aruzim-menu a.kesher:hover {
+    
+    background-position: 140px -1457px;
+    }
+
+
+    .aruzim-menu a.hofeshmeida {
+        background-position:137px -533px
+    }
+
+    .aruzim-menu a.hofeshmeida:hover {
+        background-position:137px -577px
+    }
+
+        
+
+    .aruzim-menu a.data {
+        background-position:137px -181px
+    }
+
+.aruzim-menu a.data:hover {
+        background-position:137px -225px
+    }
+    .aruzim-menu a.bank {
+    background-position: 140px -1325px;
+    }
+     
+
+    .aruzim-menu a.bank:hover {
+    background-position: 140px -1369px;
+
+    }
+
+   
+
+    .aruzim-menu a.vision {
+background-position: 140px -1941px;
+    }
+     .aruzim-menu a.vision:hover {
+    background-position: 140px -1985px;
+    }
+
+    .aruzim-menu a.documents {
+    background-position: 140px -1590px;
+    color: black!important;
+    background-color: rgba(219, 232, 241, 0.76);
+    border-radius: 5px;
+    border: 0;
+    margin-bottom: 3px;
+}
+
+        .aruzim-menu a.documents:hover {
+    background-position: 140px -1634px;
+    background-color:rgba(255, 228, 166, 0.45);
+
+        }
+.aruzim-open .aruzim-menu a.documents {
+    background-position: 140px -1590px;
+    color: #486074 !important;
+    background-color: transparent;
+    border-radius: 5px;
+    border-bottom: 1px solid white;
+    margin-bottom: 0px;
+}
+
+.aruzim-open .aruzim-menu a.documents:hover {
+	background-color:transparent;
+    background-position: 140px -1634px;
+        color: #2B4052 !important;
+}
+
+    .aruzim-menu a.refui {
+    background-position: 140px -1678px;
+    }
+
+        .aruzim-menu a.refui:hover {
+    background-position: 140px -1722px;
+        }
+
+  
+
+    .aruzim-menu a.letterToMail{
+        background-position: 141px -2015px;
+            }
+     
+
+    .aruzim-menu a.letterToMail:hover {
+    background-position: 141px -2055px;
+
+    }
+
+    .aruzim-menu a:hover {
+        color: #2B4052 !important;
+    
+        text-decoration: none;
+    }
+
+.aruzim-menu .Arutsim_ossim {
+    display: none;
+}
+
+
+
+.aruzim-menu a.savings {
+    background-position: 142px -2102px;
+}
+.aruzim-menu a.savings:hover {
+    background-position: 142px -2147px;
+}
+
+.shirut-ishi {
+    background-image: url(https://www.btl.gov.il/_layouts/15/images/btl.website/new/sprite/ico-shirut-ishi.png);
+    background-position: right 12px;
+    background-repeat: no-repeat;
+    padding-right: 43px;
+}
+
+    .shirut-ishi a,
+    .shirut-ishi h4 a {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #06457b;
+        font-size: 1.3em;
+        text-shadow: 1px 1px 1px white;
+        text-decoration: none;
+    }
+
+  
+  .shirut-ishi a {
+        font-size: 0.8em;
+        text-decoration: underline;
+        margin-left: 5px;
+    }
+	.shirut-ishi a:hover {
+	color: #0066FF;
+	
+	    }
+    
+footer {
+    text-align: center;
+    background: #d8d8d8;
+    padding: 1em !important;
+    font-size: 0.9em;
+    line-height: 1.7em;
+}
+
+.btl_Footer li {
+	display: inline-block;
+}
+
+li.footer-osim a {
+    background: url('https://www.btl.gov.il/_layouts/15/images/btl.website/new/sprite/osim-logo.png') no-repeat right transparent!important;
+    font-size: 0.01em;
+    height: 24px;
+    width: 73px;
+    margin: 0px 0px 0 6px;
+    background-size: 100%!important;
+    border: 0!important;
+    transition: width ease 0.3s;
+    display: inline-block;
+    text-indent: -2000px;
+}
+
+hidden
+{
+	display:none;
+}
+
+/*.mobile-news {
+	display:none
+}
+*/
+
+.news-panel {
+    margin: 1em 0;
+    float: right;
+    width: 100%;
+    font-size: 0.8em;
+    padding: 5px 0;
+    border-bottom: #03759e 3px solid;
+}
+
+    .news-panel marquee {
+        width: 100%;
+        height: 200px;
+        padding: 10px 0;
+    }
+
+	.news-panel .marqueeItem {display:block;margin: 1px;}
+
+    .news-panel .news-nav {
+        background: none repeat scroll 0 0 #03759e;
+        float: right;
+        padding-right: 3px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+        .news-panel .news-nav a {
+            font-weight: bold;
+            color: #FFFFFF;
+            padding: 3px 7px;
+            float: right;
+        }
+
+.leftimg a {
+	display:block;
+}
+.news-panel + ul {    float: right;}
+
+.inside .news-panel .news-nav .btl_TabSelected {
+    color: #FFFFFF;
+    padding: 3px 7px;
+    display: block;
+    text-align: center;
+    width: 100%;
+    background: none;
+}
+
+.news-panel .news-nav a.btl_TabSelected {
+    font-weight: bold;
+    color: #03759e;
+    background: #FFFFFF;
+    padding: 1px 15px 3px 15px;
+    margin-top: 2px;
+}
+
+.news-panel strong {
+    color: #005e80;
+}
+
+.news-panel p {
+    color: #444444;
+    margin: 5px 0 20px;
+}
+
+.news-panel .bold_component p {
+    color: #035AA1;
+    margin: 5px 0 20px;
+    font-weight: bold;
+}
+
+.news-panel a.more {
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #1249a4;
+    float: left;
+}
+
+    .news-panel a.more:after {
+        content: '>';
+        margin-right: 3px;
+    }
+
+
+.news-nav .tab {
+    float: right;
+    padding: 2px 16px 6px;
+    text-align: center;
+    margin-top: 2px;
+    color: white;
+    font-weight: bold;
+    border-top: 2px solid transparent;
+                cursor:pointer
+}
+
+.news-nav .tab.selected {
+    border-top-color: #6FBBD6;
+    background: white;
+    color: #03759E;
+cursor:default
+}
+
+.news-nav .tab:focus {
+    outline: 1px solid orange;
+}
+
+.news-nav .tab:hover {
+    text-decoration: underline;
+}
+
+.news-nav .tab.selected:hover {
+    text-decoration: none;
+}
+    .newsDiv h2 {
+        font-size: 12px;
+        color: #005e80;
+    }
+
+
+    .wholeList {
+        float: left;
+    }
+
+
+/* play/pause buttons*/
+    a.PauseResumeBtn {
+        float: right;
+    }
+
+        a.PauseResumeBtn span {
+            background-size: 100%;
+            width: 16px;
+            height: 16px;
+            float: left;
+            margin: 0 0 0 0.5em;
+            text-indent: -5000px;
+            direction: rtl;
+            transition: 0.2s ease;
+        }
+
+        a.PauseResumeBtn:hover {
+            opacity: 1;
+            transition: 0.2s ease;
+        }
+
+        a.PauseResumeBtn.pause span.ico-pause {
+            background-image: url(https://www.btl.gov.il/_layouts/15/images/btl.website/new/sprite/news-pause.png);
+            opacity: 1;
+        }
+
+        a.PauseResumeBtn.pause span.ico-play {
+            background-image: url(https://www.btl.gov.il/_layouts/15/images/btl.website/new/sprite/news-play.png);
+            opacity: 0.5;
+        }
+
+        a.PauseResumeBtn span.ico-pause {
+            background-image: url(https://www.btl.gov.il/_layouts/15/images/btl.website/new/sprite/news-pause.png);
+            opacity: 0.5;
+        }
+
+        a.PauseResumeBtn span.ico-play {
+            background-image: url(https://www.btl.gov.il/_layouts/15/images/btl.website/new/sprite/news-play.png);
+            opacity: 1;
+        }
+
+
+
+
+#btl_TabDiv1, #btl_TabDiv2 {
+    padding: 0 5px;
+}
+
+
+.hideWithIndent {
+    text-indent: -9999em;
+    height: 1px;
+}
+
+
+li.leftimg {
+    margin-bottom: 10px;
+}
+
+li.leftimg:first-child {
+    margin-bottom: 0px;
+}
+
+li.leftimg a {
+    border: 1px solid transparent;
+    transition:.2s ease;
+}
+
+li.leftimg a:hover {
+    border: 1px solid orange;
+    transition:.2s ease;
+}
+
+.banners a {
+    border: 1px solid #D8D8D8;
+    float: right;
+    margin: 10px 7px;
+    padding: 0 !important;
+}
+
+    .banners a img {
+        margin: 0;
+    }
+
+    .banners a:hover {
+        border: 1px solid orange;
+    }
+
+    .banners a:first-child {
+        margin-right: 0;
+    }
+
+.banners .last-child {
+    float: left;
+    margin-left: 0;
+}
+
+.grid-container.banners > ul {
+    display: table;
+    margin: 0px -10px;
+    width: 102%;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.new-service-box {
+    background: #bcdeea;
+    clear: both;
+    padding: 3px;
+    border: 8px solid #E9E9E9;
+    box-sizing: border-box;
+    display: table-cell;
+    text-align: center;
+}
+
+.new-service-box a {
+    display: block;
+    background: url(https://www.btl.gov.il/_layouts/15/images/btl.website/new/new-service-bg.png) no-repeat bottom left white;
+    text-align: right;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #007fac;
+    border: 1px solid #04a9e3;
+    margin: 0;
+    float: none!important;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 30px!important;
+	vertical-align:middle
+}
+
+.new-service-box a img {
+    float: right;
+	margin: -10px 0 0 10px;
+}
+
+
+/*  ------------------------------------------------ INSIDE  CLASSES ---------------------------------  */
+
+
+
+
+/* REMOVE INSIDE CLASS*/
+.inside .middle-panel {
+    padding: 10px 20px;
+    font-size: 0.9em;
+    line-height: 1.5em;
+}
+
+    .inside .middle-panel .intro p {
+        margin: 10px 0;
+    }
+
+
+
+.aruzim-menu,
+.openInHomePageBtn  {
+    position: absolute;
+    display: none; /*top:-1000px;*/
+    -webkit-transition: background ease 0.2s;
+    -moz-transition: background ease 0.2s;
+    -o-transition: background ease 0.2s;
+    transition: background ease 0.2s;
+}
+
+.homepage .aruzim-menu,
+.homepage .openInHomePageBtn  {
+    position: relative;
+    top: 0;
+    display: block !important;
+}
+
+.homepage .aruzim-menu
+{
+	position:inherit!important;
+}
+
+
+.aruzim-open .aruzim-menu,
+.aruzim-open .openInHomePageBtn
+ {
+    display: block;
+    position: relative;
+    top: 0;
+    background-color: #eaeaea;
+    margin: 0;
+    float: right;
+}
+
+.aruzim-open .aruzim-menu {
+    border-radius: 0 0 10px 10px;
+    margin-bottom: 15px;
+}
+
+    .aruzim-open .aruzim-menu a {
+        border-bottom: 1px solid white;
+    }
+
+.aruzim-open .openInHomePageBtn	 {
+    border-radius: 0;
+    border: 5px solid #eaeaea;
+    background-color: white!important;
+}
+
+.aruzim-open.right-panel h2,
+/*.aruzim-close.right-panel h2 { background:url(https://www.btl.gov.il/_layouts/15/images/btl.website/new/sprite/aruzim-closed.png) 10px 10px #eaeaea no-repeat; border:0; color:#000066; font-size:1em; padding:0.5em 1em; margin-top:10px; border-radius:10px; cursor:pointer; margin-bottom:0}*/
+.right-panel h2 {
+    background: url(https://www.btl.gov.il/_layouts/15/images/btl.website/new/sprite/aruzim-closed.png) 10px 10px #eaeaea no-repeat;
+    border: 0;
+    color: #000066;
+    font-size: 1em;
+    padding: 0.5em 1em;
+    margin-top: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 0;
+    
+}
+
+.aruzim-open.right-panel h2 {
+    background: url(https://www.btl.gov.il/_layouts/15/images/btl.website/new/sprite/aruzim-open.png) 10px 10px #eaeaea no-repeat;
+    border-radius: 10px 10px 0 0;
+}
+
+.aruzim-open.right-panel strong,
+/*.aruzim-close.right-panel h2 { background:url(https://www.btl.gov.il/_layouts/15/images/btl.website/new/sprite/aruzim-closed.png) 10px 10px #eaeaea no-repeat; border:0; color:#000066; font-size:1em; padding:0.5em 1em; margin-top:10px; border-radius:10px; cursor:pointer; margin-bottom:0}*/
+.right-panel strong {
+    background: url(https://www.btl.gov.il/_layouts/15/images/btl.website/new/sprite/aruzim-closed.png) 10px 10px #eaeaea no-repeat;
+    border: 0;
+    color: #000066;
+    font-size: 1em;
+    padding: 0.5em 1em;
+    margin-top: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+.aruzim-open.right-panel strong {
+    background: url(https://www.btl.gov.il/_layouts/15/images/btl.website/new/sprite/aruzim-open.png) 10px 10px #eaeaea no-repeat;
+    border-radius: 10px 10px 0 0;
+}
+
+
+/* end remove*/
+.toolbar {
+    width: 100%;
+    float: right;
+    background: #fff;
+    padding: 0px;
+    font-size: 0.75em;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    margin: 10px 0 0;
+}
+
+    .toolbar a {
+        float: left;
+        padding: 5px 20px 6px 4px;
+        margin-left: 5px;
+        border-left: 1px solid white;
+        background-position: right 4px !important;
+    }
+    
+    
+    .showOnFocus:focus
+   {
+	text-indent: 0px;
+z-index: 1000;
+width: 586px;
+padding: 10px;
+display: block;
+float: none;
+position: inherit;
+margin: 10px 0px 3px;
+height: 63px;
+} 
+
+
+    
+ .toolbar a.yeuts {
+            background: url(https://www.btl.gov.il/_layouts/15/images/btl.website/new/sprite/inside-toolbar-icon-yeuts.png) no-repeat 4px;
+        }
+
+
+        .toolbar a.forms {
+            background: url(https://www.btl.gov.il/_layouts/15/images/btl.website/new/sprite/inside-toolbar-icon5.png) no-repeat 4px;
+        }
+
+        .toolbar a.calc {
+            background: url(https://www.btl.gov.il/_layouts/15/images/btl.website/new/sprite/inside-toolbar-icon4.png) no-repeat 4px;
+        }
+
+        .toolbar a.law {
+            background: url(https://www.btl.gov.il/_layouts/15/images/btl.website/new/sprite/inside-toolbar-icon3.png) no-repeat 4px;
+        }
+
+        .toolbar a.ishurim {
+            background: url(https://www.btl.gov.il/_layouts/15/images/btl.website/new/sprite/inside-toolbar-icon2.png) no-repeat 4px;
+        }
+
+        .toolbar a.facebook {
+            background: url(https://www.btl.gov.il/_layouts/15/images/btl.website/new/sprite/inside-toolbar-icon1.png) no-repeat 4px;
+            border: 0;
+        }
+
+        .toolbar a.faq {
+            background: url(https://www.btl.gov.il/_layouts/15/images/btl.website/new/sprite/inside-toolbar-icon-faq.png) no-repeat 4px;
+        }
+
+        .toolbar a.tipim {
+            background: url(https://www.btl.gov.il/_layouts/15/images/btl.website/new/sprite/inside-toolbar-icon-tip.png) no-repeat 4px;
+        }
+
+        .toolbar a.mosdot {
+            background: url(https://www.btl.gov.il/_layouts/15/images/btl.website/new/sprite/inside-toolbar-icon-rights.png) no-repeat 4px;
+        }
+
+		 .toolbar a.sendDocuments{
+            background: url(https://www.btl.gov.il/_layouts/15/images/btl.website/new/sprite/inside-toolbar-icon-senddoc.png) no-repeat 4px;
+        }
+         .toolbar a.teum{
+            background: url(https://www.btl.gov.il/_layouts/15/images/btl.website/new/sprite/inside-toolbar-icon-teum.png) no-repeat 4px;
+        }
+ 		.toolbar a.tashlumim {
+            background: url(https://www.btl.gov.il/_layouts/15/images/btl.website/new/sprite/inside-toolbar-icon-tashlumim.png) no-repeat 4px;
+        }
+
+		.toolbar a.video{
+		    background: url(https://www.btl.gov.il/_layouts/15/images/btl.website/new/sprite/inside-toolbar-sirton.png) no-repeat 4px;
+		}
+		
+		.toolbar a.meida {
+		    background: url(https://www.btl.gov.il/_layouts/15/images/btl.website/new/sprite/inside-toolbar-icon-tip.png) no-repeat 4px;
+		}
+		
+		.toolbar a.teviaFone{
+		    background: url(https://www.btl.gov.il/_layouts/15/images/btl.website/new/sprite/inside-toolbar-tviaphone.png) no-repeat 4px;
+		}
+		
+		.toolbar a.calendar {
+		    background: url(https://www.btl.gov.il/_layouts/15/images/btl.website/new/sprite/inside-toolbar-luach.png) no-repeat 4px;
+		}
+
+.middle-panel ul {
+    list-style-image: url("/SiteCollectionImages/arrow_rtl.gif");
+    margin: 1em 3% 1em 0;
+    /* width: 94%;*/
+}
+
+    .middle-panel ul li {
+        margin-bottom: 5px;
+    }
+
+
+/*  MENU CLASSES  */
+.BtlRightMenu ul {
+    list-style: none outside none !important;
+    margin: 0;
+    padding: 0;
+}
+
+.BtlRightMenu {
+    margin: 0 -10px;
+    font-size: 0.9em;
+    clear: both;
+    margin-top: 10px;
+}
+
+    .BtlRightMenu ul ul {
+        margin-top: 0;
+        padding-top: 0;
+        margin-right: 4px;
+    }
+
+    .BtlRightMenu li a:link, .BtlRightMenu li a:visited {
+        display: block;
+        padding: 5px 5px 5px 0.5em;
+        border-right: 4px solid #186da4;
+        background-color: white;
+        color: black;
+        text-decoration: none;
+        border-bottom: 1px solid #eeeeee;
+        margin: 2px;
+            transition:0.2s ease;
+    }
+
+    .BtlRightMenu li a:hover, .BtlRightMenu li a:focus {
+        background-color: #ffe7a7;
+            transition:0.2s ease;
+    }
+
+.BtlRightMenuSelected {
+    font-weight: bold !important;
+    background-color: #ffe7a7 !important;
+    border-right: 4px solid #ffb901 !important;
+        transition:0.2s ease;
+}
+
+.BtlRightMenu ul ul a:link, .BtlRightMenu ul ul a:visited {
+    border-right: 4px solid #2fbded;
+    font-weight: normal;
+    transition:0.2s ease;
+}
+
+.BtlRightMenu h3 {
+    display: none;
+}
+/*Core override */
+
+/*Hide Ribbon buttons*/
+/*xhtml תפריט עיצוב אובייקט :*/
+#Ribbon\.EditingTools\.CPEditTab\.Markup-LargeMedium-1-2 {
+    display: none !important;
+}
+/*הרשאות דף , הפוך לדף הבית , הרשאות ספרייה תפריט דף :*/
+#Ribbon\.WikiPageTab\.Manage-LargeMedium-1-1, #Ribbon\.WikiPageTab\.PubPageActions-LargeMedium-1-0, #Ribbon\.WikiPageTab\.LibrarySettings\.LibraryPermissions-Large {
+    display: none !important;
+}
+/*-	תפריט הוסף: הטבע קוד*/
+#Ribbon\.EditingTools\.CPInsert\.Embed {
+    /*display:none!important;*/
+}
+
+#MSO_tblPageBody {
+    z-index: 4;
+    position: absolute;
+    width: 774px !important;
+    background: white !important;
+}
+
+.ms-dtinput .ms-input {
+    width: 120px !important;
+}
+
+li[text="הוסף דף"] {
+    display: none !important;
+}
+
+.bold_component {
+    color: red;
+}
+
+
+#contentRow {
+    padding-top: 0;
+}
+
+.ms-core-overlay {
+    background: none !important;
+}
+
+#contentBox {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    min-width: inherit !important;
+}
+/*SearchBox*/
+.ms-sbtext {
+    font-weight: bold;
+    color: #06457b;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+.ms-sbtable {
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.5ex !important;
+}
+
+TD.ms-sbcell {
+    border: 0;
+    padding-right: 5px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    white-space: nowrap;
+}
+/*Textbox*/
+
+.ms-sbplain {
+    border: 1px solid #9ca7ad;
+    font-size: inherit;
+    font-family: Arial;
+}
+/*Imagebutton*/
+
+TD.ms-sbgo {
+    padding-right: 3px;
+    padding-left: 3px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    background-color: Transparent;
+}
+
+/*Best Bets*/
+DIV.srch-BestBetsWPTitle {
+    background: inherit;
+    padding-bottom: 10px;
+}
+
+SPAN.srch-BestBetsWPTitle {
+    padding-right: 30px;
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+    font-family: inherit;
+}
+
+/*general search results*/
+.ms-WPBody {
+  /*font-size: medium;*/
+}
+
+    .ms-WPBody TABLE, .ms-TPBody TABLE {
+        font-size: medium;
+    }
+
+    .ms-WPBody td {
+        font-family: arial;
+        font-size: medium /*!important*/;
+    }
+
+.srch-WPBody {
+    font-size: 1em !important;
+}
+
+.ms-tztable {
+    font-family: Arial !Important;
+}
+/*Core override */
+
+.btl_Footer {
+    margin-top: 0px;
+    background-color: #d8d8d8;
+    text-align: center;
+    color: #494949;
+    padding: 0px 0 0px 0;
+}
+
+    .btl_Footer A {
+        /*font-size: 13px; REC*/
+        color: #494949;
+        text-decoration: none;
+    }
+
+    .btl_Footer SPAN {
+        padding: 0 5px 0 5px;
+    }
+
+/***************Tab Control *****************************/
+
+.btl_TabControl {
+    width: 100%;
+}
+
+.btl_Tabs {
+    font-weight: bold;
+}
+
+.btl_TabSelected {
+    border-top: 2px #04a9e3 solid;
+    color: #04a9e3;
+    text-align: center;
+}
+
+.btl_Tab {
+    color: White;
+    background-color: #04a9e3;
+    cursor: pointer;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.btl_TabControl .btl_LastTab {
+    background-color: #e9e9e9;
+    width: 10px;
+    text-align: center;
+}
+
+.btl_TabControl .ComponentHeadTD {
+    display: none;
+}
+
+.btl_TabControl .ComponentTableBG {
+    background-color: white;
+}
+
+.btl_TabControl .ComponentTD {
+    padding-bottom: 10px;
+}
+
+.btl_TabControl .ComponentDate {
+    display: block;
+    font-weight: bold;
+    color: #176da4;
+}
+
+.btl_TabControl .ComponentLink {
+    color: #676767;
+}
+
+.btl_TabControl .ComponentIcon {
+    background-image: none;
+    display: none;
+}
+
+
+
+/**/
+
+.OppositePageAlign {
+    text-align: left;
+}
+
+.PageDir
+{
+	direction:rtl;
+}
+
+
+input, textarea, select {
+    font-family: arial;
+}
+
+opener-bg ul {
+    list-style-image: url('/SiteCollectionImages/arrow_rtl.gif');
+    margin: 0 5px 0 5px;
+    padding-right: 5px;
+}
+
+
+.pad10 {
+    padding: 10px;
+}
+
+.hiden {
+    display: none;
+}
+
+input.select {
+    background-color: #FFF8DC;
+}
+
+input.mandatory {
+    background-color: #FFCCCC;
+    border: 1px #DC143C solid;
+}
+
+.txt11 {
+    font-size: 0.7em !important;
+}
+
+.txt12 {
+    font-size: 0.8em !important;
+}
+
+.txt13, .txt13 a {
+    font-size: 0.9em !important;
+}
+
+.txt14, .txt14 a {
+    font-size: 1em !important;
+}
+
+
+
+.bld {
+    font-weight: bold;
+}
+
+.red {
+    color: #BD0000;
+}
+
+.btn1 {
+    color: black;
+    font-weight: bold;
+    font-size: 1em;
+    border: 1px gray outset;
+    font-family: arial;
+    padding-right: 5px;
+    padding-left: 5px;
+    background-repeat: repeat-x;
+    cursor: pointer;
+}
+
+a.breadcrmps-lnk {
+    color: black;
+    text-decoration: underline;
+}
+
+.opener-bg {
+    /*background-image: url('https://www.btl.gov.il/_layouts/images/btl.website/opener-bg.gif');
+        background-position: bottom right;
+        background-repeat: no-repeat;*/
+    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.opener-txt {
+    line-height: 1.3 /*line-height: 1.6*/;
+}
+
+.opener-txt p {
+    margin: 0.5em 0;
+}
+
+
+.border-top1 {
+    border-top: 1px silver solid;
+    height: 1px;
+}
+
+H1, H1 #lbl_title, .ms-WPBody H1 {
+    font-size: 1.25em;
+    color: #0078d3; /*#04a9e3;*/
+    font-weight: bold;
+    margin: 0 0 5px 0;
+    font-family: Arial;
+}
+
+H2, .h2 {
+    /*font-size:2ex;*/
+    font-size: 1.2em;
+    color: #0044B7;
+    font-weight: bold;
+    padding: 0 0 0 0;
+}
+
+.heading1 {
+    /*font-size:2ex;*/
+    font-size: 16px;
+    color: #0044B7;
+    font-weight: bold;
+}
+
+.heading2 {
+    /*font-size:1.7ex;*/
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+a, a:visited {
+    color: #0044B7;
+    text-decoration: none;
+}
+
+    a:hover {
+        color: black;
+        text-decoration: underline;
+    }
+
+    /*       FOOTER      */
+    a.footerlnk {
+        color: black;
+        text-decoration: none;
+    }
+
+        a.footerlnk:hover {
+            text-decoration: underline;
+        }
+
+.txt-footer {
+    color: #6777B3;
+    border-top: 1px silver solid;
+}
+.FormCaption
+{
+	color:white;
+}
+
+.tbl caption {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #477aa2;
+    border-color: #477aa2 #477aa2 -moz-use-text-color;
+    border-image: none;
+    border-radius: 4px 4px 0 0;
+    border-style: solid solid none;
+        border-color: #477aa2;
+    border-width: 1px 1px 0;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 0.2em 0.5em;
+    text-align: right;
+}
+
+.tbl-footer {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #e8f3ff;
+    border-color: #88b7e2;
+    border-image: none;
+    border-radius: 0 0 4px 4px;
+    border-right: 1px solid #88b7e2;
+    border-style: none solid solid;
+    border-width: 0 1px 1px;
+    color: #000;
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    padding: 0.2em 0.3em;
+    width: 100%;
+}
+
+.tbl {
+    border: 1px #88B7E2 solid;
+}
+
+/*.tbl > tbody {
+    display: inherit;
+    width: 100%;
+}*/
+
+.tbl td {
+    text-align: right;
+    padding: 0.3em;
+}
+
+.td1 {
+    border-right: 2px white solid;
+    background-color: #E8F7FF;
+    line-height: 1.8;
+    font-size: inherit;
+}
+.td2 {
+    border-right: 2px white solid;
+    background-color: #D3F0FF;
+    line-height: 1.8;
+    font-size: inherit;
+}
+
+
+/*
+
+  .td2 {
+    background-color: #FFFFFF;
+    line-height: 1.8;
+    font-size: inherit;
+}
+
+  .td1 {
+    background-color: #E8F7FF;
+    line-height: 1.8;
+    font-size: inherit;
+}*/
+.td1-narrow {
+    border-right: 2px white solid;
+    background-color: #E8F7FF;
+    line-height: 1;
+    font-size: inherit;
+}
+
+.td1-in {
+    font-size: inherit;
+}
+
+
+.td2-narrow {
+    border-right: 2px white solid;
+    background-color: #D3F0FF;
+    line-height: 1;
+    font-size: inherit;
+}
+
+.td1-snifim > td {
+    background-color: #FFF;
+    font-size: inherit;
+    border-top: 1px solid silver;
+}
+
+.td2-in {
+    font-size: inherit;
+}
+
+.td3 {
+    border-right: 2px white solid;
+    background-color: #E8F7FF;
+    line-height: 1.8;
+    font-size: inherit;
+}
+
+.td4 {
+    border-right: 2px white solid;
+    background-color: #D3F0FF;
+    line-height: 1.8;
+}
+
+.td_snif_unit {
+    border-right: 2px white solid;
+    background-color: #E8F7FF;
+    line-height: 1.8;
+}
+
+.td_snif_unit2 {
+    border-right: 2px white solid;
+    background-color: #D3F0FF;
+    line-height: 1.8;
+}
+
+.tbl-head {
+    border-right: 1px white solid;
+    border-top: 1px white solid;
+    background-color: #B2D0EB;
+    font-weight: bold;
+}
+
+/*
+
+.tbl th {
+    text-align: right;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 0.2em 0.5em;
+}*/
+/* sharepoint editor tables */
+
+.btl-rteTable-default {
+    border: 1px solid #88B7E2;
+}
+
+.btl-rteTable-default th {
+    background: none repeat scroll 0 0 #B2D0EB;
+    border-right: 1px solid white;
+    border-top: 1px solid #D2F0FB;
+    font-size: 1.1em;
+    padding: 2px 5px;
+}
+
+.btl-rteTable-default th:first-child {
+    border-right: 1px solid #88B7E2;
+}
+
+
+.btl-rteTable-default tr:first-child th {border-top: 1px solid #88B7E2;}
+
+
+.btl-rteTableEvenRow-default {
+    background: none repeat scroll 0 0 #E8F7FF;
+}
+
+.btl-rteTableOddRow-default {
+    background: none repeat scroll 0 0 #D3F0FF;
+}
+
+
+.btl-rteTable-default td {
+    border-right: 1px solid white;
+    padding: 0 5px;
+}
+
+.btl-rteTable-default td:first-child {border:none}
+
+
+
+.bg-gray {
+    background-color: #dedede;
+}
+
+.hova {
+    color: #B50000;
+    font-weight: bold;
+}
+
+.tip {
+    border-bottom: 2px #C6C6C6 solid;
+    border-right: 2px #C6C6C6 solid;
+}
+
+.tip-in {
+    background-color: #FFF5B5;
+    border: 1px #316EB5 solid;
+    padding: 5px;
+}
+
+    .tip-in td {
+        font-size: 12px;
+    }
+/*/////////////////ItemsList//////////////////////////////////*/
+
+.insideList ul {
+    /*float:right;*/
+}
+
+.ms-formfieldcontainer ul {
+    float: none !important;
+}
+
+.big-buttons {
+    margin: 0 -1%;
+    padding-bottom: 40px;
+    float: right;
+}
+
+.big-buttons a {
+    text-decoration: none;
+    width: 47% !important;
+    height: 6em;
+    float: right;
+    background: url('img/mizuy_bg.png') top left repeat-y #e7f7ff;
+    border-radius: 15px;
+    border: 2px #ddd solid;
+    margin: 1%;
+    display: table;
+}
+
+.big-buttons img {
+    float: right;
+    border-radius: 0 15px 15px 0;
+    width: auto;
+    position: inherit;
+    display: table-cell;
+}
+
+.big-buttons span {
+    font-weight: bold;
+    color: #035aa1;
+    cursor: pointer;
+    font-size: 1.2em !important;
+    position: inherit;
+    vertical-align: middle;
+    display: table-cell;
+    margin: 0 0 0 0;
+    width: 57%;
+    height: 114px;
+    line-height: 1.4em;
+}
+
+#TestRes {
+    background-color: lime;
+}
+
+.grid-40.menu-buttons {
+    padding-right: 0;
+}
+
+.menu-buttons.ul
+{
+	list-style:none;
+}
+.menu-buttons  a {
+    display: block;
+    background: #E7F7FF;
+    font-weight: bold;
+    color: #035aa1;
+    text-decoration: none;
+    border: #DDDDDD 2px solid;
+    border-radius: 5px;
+    padding: 5px 0;
+    margin: 0 0 10px 0;
+    font-size: 1.1em;
+    transition:0.2s ease
+    
+}
+
+    .menu-buttons  a:hover {
+        border-color: #ccc;
+        background: #D7F4FE;
+            transition:0.2s ease
+    }
+
+      .showOnlyForOssim
+    {
+        display:none;
+    }
+
+.floatOposite
+{
+	float: left;
+}
+
+
+
+
+/*         TFASIM SHAAR         */
+
+.tfasimShaar .main-site-search {
+    width: 99%;
+    padding: 0;
+    margin: 0;
+}
+
+.tfasimShaar .main-site-search input[type="button"] {
+	width:7%
+}
+.tfasimShaar .main-site-search input[type="text"] {
+	width:91%
+}
+
+.forms-list ul {
+    list-style: none;
+    list-style-position: inside;
+    margin: 0 0 0 -1%;
+    width:100%
+}
+
+.forms-list ul li {
+    width: 31%;
+    float: right;
+    margin: 0 1%;
+}
+
+.forms-list ul li a {
+    font-size: 1em;
+    padding: 0.5em;
+    box-sizing: border-box;
+    border: 0;
+    
+}
+
+@media only screen and (min-width: 1024px) {
+  header .main-site-search {    width: 40%!important;}
+  }
+
+@media only screen and (max-width: 1023px)and (min-device-width: 400px) {
+    .grid-container, .envelopeDiv {
+        min-width: 1020px;
+        /*	width:980px;*/
+    }
+
+    #TestRes {
+        background-color: red;
+    }
+}
+
+@media screen and (max-width: 767px), (max-device-width: 400px) {
+
+.forms-list ul li {width:100%}
+
+.ms-WPBody .main-site-search {
+    display:none;
+}
+
+.banner {
+height: 143px;
+background-size: 100% 62%;
+background: url(https://www.btl.gov.il/_layouts/15/images/btl.website/new/top-bg.png) left top white no-repeat;
+}
+
+.main-site-search {
+    float: none;
+    margin: 0.1em 0 0;
+    background: #b3e4f5;
+    padding: 0.6em;
+    width: 100%;
+    display: table;
+}
+
+
+
+
+    .grid-container, .envelopeDiv {
+        min-width: 100%;
+        width: 100%;
+    }
+
+    #TestRes {
+        background-color: blue;
+    }
+
+
+    body {
+        background-image: none;
+        background-color: white;
+    }
+
+    .txt11 {
+        font-size: 0.9em !important;
+    }
+
+    .txt12 {
+        font-size: 1em !important;
+    }
+
+    .txt13, .txt13 a {
+        font-size: 1.1em !important;
+    }
+
+    .txt14, .txt14 a {
+        font-size: 1.2em !important;
+    }
+
+  /*  .Calculator .txt12 {
+        font-size: 0.8em !important;
+    }
+
+    .Calculator .txt13, .Calculator.txt13 a {
+        font-size: 0.9em !important;
+    }
+
+    .Calculator .txt14, .Calculator.txt14 a {
+        font-size: 1em !important;
+    }
+
+*/
+    .btl_Body.txt12 {
+        font-size: 0.8em !important;
+    }
+
+    .btl_Body.txt13, .btl_Body.txt13 a {
+        font-size: 0.9em !important;
+    }
+
+    .btl_Body.txt14, .btl_Body.txt14 a {
+        font-size: 1em !important;
+    }
+
+    .megamenu_light_theme .megamenu_container > ul > li > a.openSubCategories,
+    .inside .right-panel h2,
+    .inside .aruzim-menu,
+    .inside .side-menu-btn,
+    .mobile-hide,
+    .languages, .snifim-search, .separator 
+    {
+        display: none!important;
+    }
+
+.moked strong {
+    display: none;
+}
+
+	header .moked a {
+    background: url(https://www.btl.gov.il/_layouts/15/images/btl.website/new/sprite/ico-moked.png) right top no-repeat;
+    display: block!important;
+    width: 3em;
+    height: 3em;
+    top: 1.5em;
+    position: absolute;
+    left: 1%;}
+
+    .site-search {
+        position: absolute;
+        top: 10px;
+        left: 0px;
+        display: none !important;
+    }
+
+    .SnifSearch .snifim-search {
+        display: block !important;
+    }
+
+  
+
+
+.middle-panel , .left-panel {
+    width: 100% !important;
+}
+.grid-20.mobile-hide.left-panel
+{
+	display:block !important;
+}
+
+.big-buttons {
+    margin: 0 -1%;
+    padding-bottom: 40px;
+    width: 100%;
+}
+
+
+.big-buttons a {
+    width: 100%!important;
+    height: auto;
+}
+
+.big-buttons img {
+    float: right;
+    border-radius: 0 15px 15px 0;
+    width: 41%;
+}
+
+.big-buttons span {
+height: auto;
+    font-size: 1.1em!important;
+    width: 70%;
+}
+
+
+    a.logo {
+        background: url(https://www.btl.gov.il/_layouts/15/images/btl.website/new/sprite/logo.png) no-repeat right;
+        background-size: 100%;
+        width: 82%;
+        border-radius: 0 5px 0 0;
+    }
+
+    .banner .moked strong {
+        display: none;
+    }
+
+    .banner .moked a {
+        display: block;
+        width: 40px;
+        height: 40px;
+        position: relative;
+        top: 0;
+        left: 40px;
+    }
+
+    .banner .moked {
+        margin: 20px 0 0 10px;
+        width: 40px;
+        height: 40px;
+    }
+
+        .banner .moked:hover {
+            background-color: transparent;
+        }
+
+    .banner, header {
+        padding: 0 !important;
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .link-home {
+        display: none !important;
+    }
+
+    .megamenu > li > a {
+        padding: 0.4em 1em 0.4em 0.5em;
+        margin-right: 0px !important;
+    }
+
+    .link-search,
+    .link-aruzim {
+        display: block !important;
+    }
+
+    .megamenu .dropdown_fullwidth.link-dmey li,
+    .megamenu .dropdown_fullwidth.link-funds li,
+    .megamenu .dropdown_fullwidth.link-kizbaot li {
+        width: 100% !important;
+    }
+
+    .megamenu li li {
+        font-size: 1.3em !important;
+        width: 100% !important;
+    }
+
+
+
+    .megamenu li ul li {
+        line-height: 1.5em;
+        padding: 0.5em 0 !important;
+        background: none;
+    }
+
+
+    .cameraContent {
+        width: 100%;
+    }
+
+    .camera_caption a {
+        text-shadow: 1px 1px 0px white;
+    }
+
+    .right-panel {
+        margin-top: -9px;
+    }
+
+
+    .banners a {
+        margin: 5px 5% !important;
+        width: 90%;
+    }
+
+       
+.grid-container.banners > li  {width:100%; margin:10px 0}
+
+.new-service-box  {display:block; border-width:0}
+
+.new-service-box a {
+    display: block;
+    text-align: center;
+    margin: 0!important;
+    box-sizing: border-box;
+ }
+
+.banners a img {
+    width: auto;
+    margin: 1px auto!important;
+    float: none!important;
+    display: block!important;
+	position:inherit!important
+}
+
+    .main-content {
+        margin-top: 0px;
+        background: white no-repeat none !important;
+    }
+
+
+
+    .toolbar a {
+        width: 45%;
+        border: 0;
+        float: right;
+        margin: 0.4em;
+        font-size: 1.3em;
+    }
+
+    .right-panel, .middle-panel {
+        display: block !important;
+    }
+
+
+    .BtlRightMenu {
+        font-size: 1em;
+    }
+
+        .BtlRightMenu li a:link, .BtlRightMenu li a:visited {
+            padding: 0.5em;
+        }
+
+        .BtlRightMenu h3 {
+            display: block;
+            /*background: #EFEFEF;
+	background: -webkit-linear-gradient(top, #EFEFEF, #FFFFFF);
+    background: -moz-linear-gradient(center top , #EFEFEF, #FFFFFF) repeat scroll 0 0 transparent;
+    background: -o-linear-gradient(top, #EFEFEF, #FFFFFF);
+	background: -ms-linear-gradient(top, #EFEFEF, #FFFFFF);
+	background: linear-gradient(top, #EFEFEF, #FFFFFF);*/
+            background: #EFEFEF;
+            background-image: none;
+            background: -webkit-linear-gradient(top, #EFEFEF, #FFFFFF);
+            background: -moz-linear-gradient(center top, #EFEFEF, #FFFFFF) repeat scroll 0 0 transparent;
+            background: -o-linear-gradient(top, #EFEFEF, #FFFFFF);
+            background: -ms-linear-gradient(top, #EFEFEF, #FFFFFF);
+            background: linear-gradient(top, #EFEFEF, #FFFFFF);
+            border-bottom: 1px solid #56B2FF;
+            line-height: 2.8em;
+            cursor: pointer;
+            font-size: 0.9em;
+        }
+
+            .BtlRightMenu h3:hover {
+                background: #fef6df;
+            }
+
+        .BtlRightMenu img {
+            margin-right: 2px;
+            padding-left: 0;
+            vertical-align: middle;
+        }
+
+        .BtlRightMenu ul {
+            display: none;
+        }
+
+            .BtlRightMenu ul.show {
+                display: block !important;
+            }
+
+    .aruzim-open.right-panel h2, .right-panel h2 {
+        display: none;
+    }
+}
+
+
+/*  VIDEO PLAYER   */
+
+
+.horizontalWPZone #leftDiv div.jp-video-360p {
+    width: 100% !important;
+}
+
+.horizontalWPZone #leftDiv .jp-jplayer.jquery_jplayer_1 {
+    width: 100% !important;
+}
+
+.horizontalWPZone #leftDiv a.jp-video-play-icon {
+    left: -38% !important;
+}
+
+.horizontalWPZone #leftDiv #jquery_jplayer_1 > img {
+    width: 100% !important;
+}
+
+.horizontalWPZone #leftDiv video {
+    width: 100% !important;
+}
+
+.horizontalWPZone #rightDiv ul {
+    margin: 0;
+}
+
+    .horizontalWPZone #rightDiv ul li {
+        list-style-image: none;
+    }
+
+
+.horizontalWPZone #leftDiv .jp-playlist.video-tumbs {
+    height: 82px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 442px !important;
+}
+
+    .horizontalWPZone #leftDiv .jp-playlist.video-tumbs > a {
+        display: table-cell;
+        padding: 5px !important;
+    }
+
+
+
+/*   CALENDAR   */ 
+
+.ms-acal-time {
+    display: none!important;
+}
+.ms-acal-outday {
+    background-color: #ececec;
+}
+
+
+.ms-acal-item {
+    background-color: #8BD6FB;
+    border: 0!important;
+    margin-left: 4px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.ms-acal-sdiv, .ms-acal-mdiv, .ms-acal-ddiv {
+    color: #000;
+    font-size: 0.9em;
+}
+
+.ms-acal-sdiv a, .ms-acal-mdiv a, .ms-acal-ddiv a {
+    color: #000 !important;
+    text-decoration: none!important;
+}
+
+
+tr td div.ms-acal-today {
+    color: #000000;
+    border-top: solid 3px #FFC001;
+}
+
+.ms-acal-header > table {
+    width: 168px!important;
+    position: relative;
+    margin: 0 auto;
+}
+
+
+.ms-acal-display {
+    color: #585858;
+    font-size: 1.1em;
+    padding: 5px;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+.ms-acal-header {
+    margin: 10px 0;
+    border-bottom: 2px solid #A9D4E8;
+    padding-bottom: .5em;
+}
+
+
+.calendar-legend {font-weight:bold}
+.calendar-legend:before {content:"i"; color:WHITE; font-weight:bold; float:right; background:#327bb3; width:20px; height:20px; line-height:20px; text-align:center; font-size:0.93em; margin:0 0 0 .5em; border-radius:50%}
+
+
+.ms-acal-header > table td[style="width:24px"] img {
+    border: 2px solid #729DB3;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+
+.ms-acal-header > table td[style="width:24px"] a {
+    border-radius: 50%;
+    width: 27px;
+    margin: 0 0.2em;
+    padding: 0;
+    display: block;
+}
+
+
+.ms-acal-month tr th:first-child {
+    display: none;
+}
+
+.ms-acal-default-hover.ms-acal-default-hover.ms-acal-default-hover.ms-acal-default-hover div a,
+.ms-acal-selected.ms-acal-selected.ms-acal-selected.ms-acal-selected div {color:black!important;}
+
+
+.ms-acal-rootdiv .ms-acal-item, .ms-acal-rootdiv .ms-acal-mdiv {white-space:normal!important;overflow: hidden!important;height: auto!important;max-height: 77px;padding: 2px 0px;}
+
+
+
+ @media screen and (max-width: 767px), (max-device-width: 400px) {
+
+
+.ms-acal-rootdiv.ms-acal-rootdiv .ms-acal-item.ms-acal-item, .ms-acal-rootdiv .ms-acal-mdiv { font-size:85%!important; padding:0px 1px 1px!important;line-height:13px}
+
+.ms-acal-rootdiv th.ms-acal-detailtime, .ms-acal-rootdiv th.ms-acal-day-top, .ms-acal-rootdiv th.ms-acal-month-top {
+    font-size: .9em;
+}
+tr.ms-acal-summary-dayrow > td {font-size:.8em}
+
+ }
