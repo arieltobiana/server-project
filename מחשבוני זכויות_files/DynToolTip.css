@@ -1,0 +1,231 @@
+﻿body
+{
+}
+.tooltip {
+position: absolute;
+z-index: 1000;
+background: rgb(255, 241, 157);
+padding: 10px;
+border-radius: 3px;
+border: 1px solid #B2B2B2;
+margin: -40px -8% 0px 0;
+font-size: 0.9em;
+box-shadow: 1px 1px 2px #bbb;
+width: 170px;
+text-align: right;
+display:block;
+}
+
+.tooltip-arrow-border, .tooltip-arrow {
+float: right;
+position: absolute;
+top: 0.5em;
+left: -17px;
+border-top: 8px solid transparent!important;
+border-right: 8px solid !important;
+border-left: 8px solid transparent!important;
+width: 0px;
+height: 0px;
+border-bottom: 8px solid transparent!important;
+right: inherit;
+}
+
+.tooltip-arrow-border {
+margin-left: 0px;
+border-right-color: #929292!important;
+}
+
+.tooltip-arrow {
+border-right-color: rgb(255, 241, 157)!important;
+position: absolute;
+z-index: 14;
+margin-left: 1px;
+}
+
+.tooltip p {
+    padding: 0;
+    margin: 0;
+}
+
+
+/*מילון מונחים*/
+
+
+.tooltiped.concepts {
+    color: #AC420E;
+    cursor: help;
+    position:relative;
+    line-height: 18px;
+}
+
+/*
+.tooltiped.concepts::after {
+    content: "i";
+    background: #68ADE2;
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 12px;
+    margin: 0px 1px 0px 4px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 10px;
+}*/
+
+.tooltiped.concepts::after {
+    content: "?";
+    background: #68ADE2;
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    border-radius: 50%;
+    line-height: 12px;
+    margin: 0px 1px 0px 0px;
+    color: white;
+    font-weight: 700;
+    font-size: 9px;
+    vertical-align: super;
+    text-align: center;
+}
+.tooltiped.concepts:focus
+{
+     outline: none;
+    font-weight: bold;
+}
+
+.tooltiped.concepts > .tooltip.questionMarkTooltip {
+    margin: 5px 0 0 -100px;
+    left: 50%;
+    COLOR: rgb(68, 68, 68);
+    font-family: arial!important;
+    font-weight: normal;
+    line-height: 1.2;
+}
+
+.tooltiped.concepts > .tooltip.questionMarkTooltip span.tooltip-arrow-border {
+    top: -16px;
+    border-right-color: transparent!important;
+    border-bottom-color: #929292!important;
+    left: 75px;
+}
+
+.tooltiped.concepts > .tooltip.questionMarkTooltip .tooltip-arrow {
+    top: -15px;
+    border-right-color: transparent!important;
+    border-bottom-color: rgb(255, 241, 157)!important;
+    left: 74px;
+}
+
+
+/*  btl frm */
+
+
+.btl-frm .tooltip { margin: -41px 419px 0px 0;}
+.btl-frm .tooltip-arrow-border, .btl-frm .tooltip-arrow {
+    float: right;
+position: absolute;
+top: 1em;
+right: -17px;
+border-top: 8px solid transparent !important;
+border-right: 8px solid transparent!important;
+border-left: 8px solid!important;
+width: 0px;
+height: 0px;
+border-bottom: 8px solid transparent!important;
+}
+
+
+.btl-frm .tooltip-arrow-border
+{
+    margin-right: 1px;
+    border-color: #929292;
+}
+
+.btl-frm .tooltip-arrow
+{
+    border-left-color: rgb(255, 241, 157)!important;position: absolute;z-index: 14;margin: 0 2px 0 0;
+}
+
+.hiden
+{display:none;}
+/* forms*/
+.tooltip.questionMarkTooltip
+{
+margin: -29px -181px 0px 0;
+}
+
+
+
+.tooltiped.concepts.inlineIcon:after {
+    display: none;
+}
+.tooltiped.concepts.inlineIcon
+{ 
+    background: #68ADE2;
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    border-radius: 50%;
+    line-height: 12px;
+    margin: 0px 1px 0px 0px;
+    color: white;
+    font-weight: 700;
+    font-size: 9px;
+    vertical-align: super;
+    text-align: center;}
+
+    .tooltiped.concepts.inlineIcon > .tooltip.questionMarkTooltip {font-size:12px;   }
+
+    /*legend .tooltip.questionMarkTooltip
+{margin: -32px 9px 0px 0;
+}*/
+
+
+@media screen and (max-width: 767px), (max-device-width: 400px) {
+
+    .tooltip.hidden {
+        display: block;
+    }
+
+   .btl-frm .tooltip {
+        position: relative;
+        z-index: 1000;
+        background: rgb(228, 228, 228);
+        padding: 10px;
+        border-radius: 3PX;
+        border: 0;
+        margin: 0;
+        font-size: 0.9em;
+        box-shadow: 1px 1px 2px #bbb;
+        width: 100%;
+        text-align: right;
+        display: block;
+    }
+
+    .btl-frm .tooltip-arrow-border, .btl-frm .tooltip-arrow {
+        float: right;
+        position: absolute;
+        top: -1em;
+        right: 5%;
+        border-top: 8px solid transparent !important;
+        border-right: 8px solid transparent !important;
+        border-left: 8px solid transparent !important;
+        width: 0px;
+        height: 0px;
+        border-bottom: 8px solid !important;
+    }
+
+    .btl-frm .tooltip-arrow {
+        border-bottom-color: rgb(228, 228, 228) !important;
+        position: absolute;
+        z-index: 14;
+        margin: 0 2px 0 0;
+    }
+
+    .btl-frm .tooltip-arrow-border {
+        margin-right: 1px;
+        border-bottom-color: #B9B8B8 !important;
+    }
+}
