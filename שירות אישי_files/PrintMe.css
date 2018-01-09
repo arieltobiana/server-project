@@ -1,0 +1,157 @@
+﻿/*.HideInPrint , .PrintRemove , .BtlRightMenu , .btl_TopMenu , .btl_Search ,.anchor-tbl ,.DirectChannelPopup ,.btl_MainTableNear
+{
+	display:none;
+}
+.btl_Footer
+{
+	text-align:center;
+}
+.btl_MainDiv center
+{
+width:75%!important;	
+}
+.btl_MainTableCenter{
+	 text-align:center;
+	 width:75%!important;	
+	 margin:0;
+	 float:none;
+}
+.btl_MainTableFar{
+ visibility:collapse;
+ width:10px!important;
+}
+
+body{
+	font-size:medium!important;
+}*/
+.HideInPrint , .PrintRemove , .BtlRightMenu , .btl_TopMenu , .btl_Search ,.anchor-tbl ,.banner,.DirectChannelPopup,.btl_SitePath 
+ ,.btl_MainTableNear,.btl_TopHeaderSideImage ,.megamenu_wrapper , .top-search ,.languages ,.right-panel ,.left-panel ,.toolbar
+{
+	display:none!important;
+}
+.btl_TopHeaderImage
+{
+    display:none;
+}
+.SitePath,.breadcrmps-bg
+{
+	/*text-align:right;*/
+}
+.side-menu-btn
+{
+	display:none;
+}
+.tender-toolbar .side-menu-btn
+{
+            display:block;
+}
+
+.dropdown_fullwidth
+{
+	display:none;
+}
+.menuitem_drop
+{
+	display:none;
+}
+.contactusTitle
+{
+	display:none;
+}
+.LeftSideLinks_ccTitle
+{
+	display:none;
+}
+.Steps h2
+{
+	display:none;
+}
+.hideWithIndent
+{
+	
+}
+
+.grid-container {width:auto!important; max-width:auto!important}
+	
+}
+.btl_Footer
+{
+	width:600px;
+	text-align:center;
+/*	position:fixed;
+	bottom:0px;
+	
+}
+.btl_MainTableCenter{
+	/* text-align:center;*/
+	 /*width:750px!important;	*/
+	 margin:0;
+	 border:1px;
+	 float:none;
+	/* display:inline-table;*/
+}
+.btl_MainTableFar{
+ display:none;
+}
+#FacebookLink
+{
+	display:none;
+}
+
+body{
+	font-size:medium!important;
+
+
+}
+.main-table
+{
+	width:600px;
+	
+}
+ .hiden
+{
+	display:none!important;
+	
+}
+.ShowInPrint .hiden
+{
+	display:block!important;
+	text-align:center;
+
+}
+
+.printImg
+{
+	width:600px;
+}
+.HideInPrint
+{
+	display:none!important;
+}
+
+a
+{
+	text-decoration:underline!important;
+}
+.OP_List .hidden,.Hevrot_List .hidden
+{
+	display:block!important;
+}
+
+.Hevrot_List ul{
+	max-height:100%!important;
+}
+.tbl
+{
+	border-collapse:collapse;
+	border:1px black solid!important;
+
+}
+.td1
+{
+	border:1px black solid!important;
+	}
+.td2
+{
+	border:1px black solid!important;
+}
