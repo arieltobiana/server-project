@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<!-- saved from url=(0029)https://ps.btl.gov.il/#/login -->
+<html lang="he" ng-app="app" id="ng-app" dir="rtl" class="ng-scope"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title ng-bind="title" class="ng-binding">כניסה לשירות אישי</title>
+    <meta name="description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="./שירות אישי_files/app" rel="stylesheet">
+
+    <link href="https://ps.btl.gov.il/" rel="stylesheet" id="appAcc">
+    <!--<base href="/">--><base href=".">
+    <script async="" src="https://www.google-analytics.com/analytics.js"></script><script>
+        if (top != self) top.location.href = self.location.href;
+    </script>
+<style type="text/css"></style></head>
+<body>
+    <div ng-controller="ApplicationController" focus-listener="" resize-layout="xs" class="ng-scope">
+        <ul class="skip-links skip-links-top-page hidden-xs">
+            <li><a href="javascript:void(0)" ng-click="skipTo(&#39;topNav_0&#39;)">דילוג לתפריט עליון</a></li>
+            <li><a href="javascript:void(0)" ng-click="skipTo(&#39;sideNav_0&#39;)">דילוג לתפריט צד</a></li>
+            <li><a href="javascript:void(0)" ng-click="skipTo(&#39;mainContent_id&#39;)">דילוג לתוכן ראשי</a></li>
+        </ul>
+        <div class="navbar-fixed-top container">
+            <!--[if lt IE 10]>
+                    <div class="alert alert-danger">
+            הנכם משתמשים בדפדפן <strong>מיושן</strong>, שאינו נתמך באתר זה.
+            על מנת לקבל חווית גלישה מיטבית, אנא
+            <a href="http://www.whatbrowser.org/intl/iw/"><b>
+            שדרגו את הדפדפן בקישור זה.</b></a>
+                    </div>
+                <![endif]-->
+            <div id="topBanner" flex-top="90" collapse="_topLayout != &#39;top&#39;" class="in" style="height: auto;" aria-expanded="true">
+
+                <!-- ngIf: currentUser -->
+
+                <div id="topLogo" title="המוסד לביטוח לאומי לצדך ברגעים החשובים של החיים - שירות אישי">
+                    <div class="btn-acc pull-right">
+                        <button class="btn" ng-init="applyAccessibilityDisplay = false" aria-label="לחץ לתצוגה נגישה" ng-click="toggleCssAcc()">
+                            <!-- ngIf: applyAccessibilityDisplay -->
+                            <!-- ngIf: !applyAccessibilityDisplay --><span ng-if="!applyAccessibilityDisplay" class="ng-scope">תצוגה נגישה</span><!-- end ngIf: !applyAccessibilityDisplay -->
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="hide-ie8">
+                <div class="navbar navbar-default" role="banner">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button class="navbar-toggle" type="button" ng-click="toggleMobileMenu()" aria-expanded="false">
+                                <span class="sr-only">תפריט ראשי</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <!-- ngIf: currentUser -->
+                            <!-- ngIf: currentUser -->
+                        </div>
+                        <nav class="collapse navbar-collapse ng-hide" role="navigation" ng-hide="!_isMMCollapsed" aria-label="עליון" aria-hidden="true">
+                            <ul id="topNav" class="nav navbar-nav public" ng-class="{public: !currentUser,  ntop: _topLayout !=&#39;top&#39;}">
+                                <!-- ngIf: topHome -->
+                                
+                                <!-- ngRepeat: nav in topNoBtlNoKishurim -->
+                                
+                                <!-- ngRepeat: nav in topKishurim -->
+                                
+                                <!-- ngIf: topBtl -->
+                                
+                                <!-- ngRepeat: nav in topNavNoUser --><li ng-repeat="nav in topNavNoUser" class="xsMnu ng-scope">
+                                    <a href=“./index.html” id="topNav_0" open-external="" class="ng-binding"><!-- ngIf: nav.name == 'btl' --><i class="fa fa-home ng-scope" ng-if="nav.name == &#39;btl&#39;"></i><!-- end ngIf: nav.name == 'btl' -->דף הבית</a>
+                                </li><!-- end ngRepeat: nav in topNavNoUser --><li ng-repeat="nav in topNavNoUser" class="xsMnu ng-scope">
+                                    <a href="http://www.btl.gov.il/benefits" id="topNav_1" open-external="" class="ng-binding"><!-- ngIf: nav.name == 'btl' -->קצבאות והטבות</a>
+                                </li><!-- end ngRepeat: nav in topNavNoUser --><li ng-repeat="nav in topNavNoUser" class="xsMnu ng-scope">
+                                    <a href="http://www.btl.gov.il/INSURANCE/Pages/default" id="topNav_2" open-external="" class="ng-binding"><!-- ngIf: nav.name == 'btl' -->ביטוח וגבייה</a>
+                                </li><!-- end ngRepeat: nav in topNavNoUser --><li ng-repeat="nav in topNavNoUser" class="xsMnu ng-scope">
+                                    <a href="http://www.btl.gov.il/snifim" id="topNav_3" open-external="" class="ng-binding"><!-- ngIf: nav.name == 'btl' -->סניפים וערוצי שירות</a>
+                                </li><!-- end ngRepeat: nav in topNavNoUser --><li ng-repeat="nav in topNavNoUser" class="xsMnu ng-scope">
+                                    <a href="http://www.btl.gov.il/Mediniyut/Pages/default" id="topNav_4" open-external="" class="ng-binding"><!-- ngIf: nav.name == 'btl' -->פרסומים ומדיניות חברתית</a>
+                                </li><!-- end ngRepeat: nav in topNavNoUser --><li ng-repeat="nav in topNavNoUser" class="xsMnu ng-scope">
+                                    <a href="http://www.btl.gov.il/Funds/Pages/default" id="topNav_5" open-external="" class="ng-binding"><!-- ngIf: nav.name == 'btl' -->קרנות</a>
+                                </li><!-- end ngRepeat: nav in topNavNoUser -->
+                            </ul>
+                        </nav>
+                    </div>
+                    <div id="loader-container" aria-busy="false" aria-valuetext="נא המתן..."></div>
+                </div>
+            </div>
+        </div>
+        <div class="container stickyTop" ng-class="{stickyTop : _topLayout == &#39;top&#39;, stickyMenu: _topLayout != &#39;top&#39;}">
+            <div class="inner"></div>
+        </div>
+        <div ng-hide="topNav || sideNav || topNavNoUser" aria-hidden="true" class="ng-hide">
+            <div class="modal modal-open" style="z-index:2000;display:block;background:#fff">
+                <div style="display:block;margin:0 auto;width: 70px;padding-top:10%"><span class="fa fa-spin fa-circle-o-notch fa-5x" style="color:#2d6ca2"></span></div>
+            </div>
+        </div>
+    <span style="width:0;height:0" class="hidden-xs"></span></div>
+    <div class="container hide-ie8">
+        <div class="row layout">
+            <div id="sideNav" class="col-sm-3 col-md-3 col-lg-2 hidden-xs ng-scope normalMenu" ng-class="{mobileMenu:_isMMCollapsed &amp;&amp; _layoutType == &#39;small&#39;, normalMenu: _layoutType == &#39;normal&#39;}" ng-style="_layoutType == &#39;normal&#39; &amp;&amp; {&#39;margin-right&#39;:&#39;&#39;}" ng-controller="SideNavController" role="navigation" aria-label="צד" focus-listener="" style="">
+                <ul class="">
+                    <!-- ngIf: topHome -->
+                    <!-- ngRepeat: nav in sideNav | filter:{name : '!CallUs' } --><li ng-repeat="nav in sideNav | filter:{name : &#39;!CallUs&#39; }" class="sideMnu ng-scope">
+                        <!-- ngIf: !nav.subNav &&  (nav.name !== 'Register') --><a ng-if="!nav.subNav &amp;&amp;  (nav.name !== &#39;Register&#39;)" id="sideNav_0" ui-sref="login" href="https://ps.btl.gov.il/#/login" ui-sref-active="active" class="active">כניסה לאתר שירות אישי</a><!-- end ngIf: !nav.subNav &&  (nav.name !== 'Register') -->
+                        <!-- ngIf: !nav.subNav && (nav.name == 'Register') -->
+                        <!-- ngIf: nav.subNav -->
+                    </li><!-- end ngRepeat: nav in sideNav | filter:{name : '!CallUs' } --><li ng-repeat="nav in sideNav | filter:{name : &#39;!CallUs&#39; }" class="sideMnu ng-scope">
+                        <!-- ngIf: !nav.subNav &&  (nav.name !== 'Register') --><a ng-if="!nav.subNav &amp;&amp;  (nav.name !== &#39;Register&#39;)" id="sideNav_1" ui-sref="ForgotPassword" href="https://ps.btl.gov.il/#/ForgotPassword" ui-sref-active="active" class="">שכחתי סיסמה או קוד משתמש</a><!-- end ngIf: !nav.subNav &&  (nav.name !== 'Register') -->
+                        <!-- ngIf: !nav.subNav && (nav.name == 'Register') -->
+                        <!-- ngIf: nav.subNav -->
+                    </li><!-- end ngRepeat: nav in sideNav | filter:{name : '!CallUs' } --><li ng-repeat="nav in sideNav | filter:{name : &#39;!CallUs&#39; }" class="sideMnu ng-scope">
+                        <!-- ngIf: !nav.subNav &&  (nav.name !== 'Register') --><a ng-if="!nav.subNav &amp;&amp;  (nav.name !== &#39;Register&#39;)" id="sideNav_2" ui-sref="Odot" href="https://ps.btl.gov.il/#/Odot" ui-sref-active="active" class="">אודות האתר</a><!-- end ngIf: !nav.subNav &&  (nav.name !== 'Register') -->
+                        <!-- ngIf: !nav.subNav && (nav.name == 'Register') -->
+                        <!-- ngIf: nav.subNav -->
+                    </li><!-- end ngRepeat: nav in sideNav | filter:{name : '!CallUs' } --><li ng-repeat="nav in sideNav | filter:{name : &#39;!CallUs&#39; }" class="sideMnu ng-scope">
+                        <!-- ngIf: !nav.subNav &&  (nav.name !== 'Register') --><a ng-if="!nav.subNav &amp;&amp;  (nav.name !== &#39;Register&#39;)" id="sideNav_3" ui-sref="AvtachatMeida" href="https://ps.btl.gov.il/#/AvtachatMeida" ui-sref-active="active" class="">אבטחת מידע</a><!-- end ngIf: !nav.subNav &&  (nav.name !== 'Register') -->
+                        <!-- ngIf: !nav.subNav && (nav.name == 'Register') -->
+                        <!-- ngIf: nav.subNav -->
+                    </li><!-- end ngRepeat: nav in sideNav | filter:{name : '!CallUs' } --><li ng-repeat="nav in sideNav | filter:{name : &#39;!CallUs&#39; }" class="sideMnu ng-scope">
+                        <!-- ngIf: !nav.subNav &&  (nav.name !== 'Register') --><a ng-if="!nav.subNav &amp;&amp;  (nav.name !== &#39;Register&#39;)" id="sideNav_4" ui-sref="Kesher" href="https://ps.btl.gov.il/#/Kesher" ui-sref-active="active" class="">תמיכה</a><!-- end ngIf: !nav.subNav &&  (nav.name !== 'Register') -->
+                        <!-- ngIf: !nav.subNav && (nav.name == 'Register') -->
+                        <!-- ngIf: nav.subNav -->
+                    </li><!-- end ngRepeat: nav in sideNav | filter:{name : '!CallUs' } --><li ng-repeat="nav in sideNav | filter:{name : &#39;!CallUs&#39; }" class="sideMnu ng-scope">
+                        <!-- ngIf: !nav.subNav &&  (nav.name !== 'Register') --><a ng-if="!nav.subNav &amp;&amp;  (nav.name !== &#39;Register&#39;)" id="sideNav_5" ui-sref="TnaeyShimush" href="https://ps.btl.gov.il/#/TnaeyShimush" ui-sref-active="active" class="">תנאי שימוש</a><!-- end ngIf: !nav.subNav &&  (nav.name !== 'Register') -->
+                        <!-- ngIf: !nav.subNav && (nav.name == 'Register') -->
+                        <!-- ngIf: nav.subNav -->
+                    </li><!-- end ngRepeat: nav in sideNav | filter:{name : '!CallUs' } --><li ng-repeat="nav in sideNav | filter:{name : &#39;!CallUs&#39; }" class="sideMnu ng-scope">
+                        <!-- ngIf: !nav.subNav &&  (nav.name !== 'Register') -->
+                        <!-- ngIf: !nav.subNav && (nav.name == 'Register') --><a ng-if="!nav.subNav &amp;&amp; (nav.name == &#39;Register&#39;)" id="sideNav_6" ui-sref="LinksExternal({extUrl:&#39;http://www.btl.gov.il/snifim/Pages/atarIshi.aspx&#39;})" href="https://ps.btl.gov.il/#/Links/External/http%3A~2F~2Fwww.btl.gov.il~2Fsnifim~2FPages~2FatarIshi.aspx//" ui-sref-active="active" class="">הצטרפות לשירות אישי</a><!-- end ngIf: !nav.subNav && (nav.name == 'Register') -->
+                        <!-- ngIf: nav.subNav -->
+                    </li><!-- end ngRepeat: nav in sideNav | filter:{name : '!CallUs' } -->
+
+                    
+                    <!-- ngRepeat: nav in topNoBtlNoKishurim -->
+
+                    <!-- ngIf: (currentUser && sideNav[0].name != 'ChangeTempPassword' && sideNav[0].name != 'MevutachSwitch' && !hidePersonalMenu) -->
+                    <!-- ngIf: (currentUser && sideNav[0].name != 'ChangeTempPassword' && sideNav[0].name != 'MevutachSwitch' && !hidePersonalMenu) -->
+                    <!-- ngIf: (currentUser && sideNav[0].name != 'ChangeTempPassword' && sideNav[0].name != 'MevutachSwitch' && !hidePersonalMenu) -->
+
+                    <!-- ngIf: (currentUser && sideNav[0].name != 'ChangeTempPassword' && sideNav[0].name != 'MevutachSwitch' && !hidePersonalMenu) -->
+
+                    <!-- ngIf: (currentUser && sideNav[0].name != 'ChangeTempPassword' && sideNav[0].name != 'MevutachSwitch' && !hidePersonalMenu) -->
+                    <!-- ngIf: topBtl -->
+                    <!-- ngIf: sideNavCallUs -->
+                    
+                    <!-- ngRepeat: nav in topKishurim -->
+                    
+                    <!-- ngRepeat: nav in topNavNoUser --><!-- ngIf: _layoutType == 'small' --><!-- end ngRepeat: nav in topNavNoUser --><!-- ngIf: _layoutType == 'small' --><!-- end ngRepeat: nav in topNavNoUser --><!-- ngIf: _layoutType == 'small' --><!-- end ngRepeat: nav in topNavNoUser --><!-- ngIf: _layoutType == 'small' --><!-- end ngRepeat: nav in topNavNoUser --><!-- ngIf: _layoutType == 'small' --><!-- end ngRepeat: nav in topNavNoUser --><!-- ngIf: _layoutType == 'small' --><!-- end ngRepeat: nav in topNavNoUser -->
+                </ul>
+            </div>
+            <div id="moduleContent" class="col-sm-9 col-md-9 col-lg-10">
+                <div ng-hide="!appError" ng-controller="AppErrorController" class="ng-scope ng-hide" aria-hidden="true">
+                    <div class="alert alert-danger ng-binding" role="alert">
+                        <span class="fa fa-exclamation-triangle"></span>
+                        
+                    </div>
+                </div>
+                <!-- uiView: --><div ui-view="" focus-listener="" class="ng-scope" style="">
+<div class="row ng-scope">
+    <div class="col-sm-12">
+        <form class="form-horizontal ng-pristine ng-invalid ng-invalid-required ng-valid-maxlength" novalidate="novalidate" name="form" ng-submit="submit()">
+            <!-- ngIf: !appError --><fv-validation-summary ng-if="!appError" class="ng-scope"></fv-validation-summary><!-- end ngIf: !appError -->
+            <div class="form-group col-sm-9">
+                <h1 tabindex="-1" id="mainContent_id" style="outline: none;">כניסה לאתר שירות אישי</h1>
+                <p>
+                    כאן ניתן לקבל מידע אישי במגוון רחב של נושאים. האתר מופעל באמצעות הזדהות בקוד
+                    משתמש ובסיסמה.<br>
+                    להצטרפות לשירות ניתן להזמין קוד משתמש וסיסמה באמצעות <a href="http://www.btl.gov.il/snifim/Pages/atarIshi.aspx" open-external="">אתר הביטוח הלאומי</a>
+                    או באמצעות המוקד הטלפוני <span dir="ltr">*6050</span>.<br>
+                    ניתן גם לפנות לאחד מהסניפים ולקבל קוד משתמש וסיסמה במקום.
+                </p>
+                <p class="sr-only">
+                    באתר זה לאחר הכניסה כל התכנים נטענים לדף הראשי, עבור משתמשי קורא מסך, בכל ניווט חדש, הפוקוס יופנה לתחילת האזור הנטען.
+                </p>
+            </div>
+
+            <div class="form-group col-sm-3 hidden-xs hidden-sm">
+                <div class="login-responcive pull-left">
+                    <img src="./שירות אישי_files/login-responcive-icon.png" alt="האתר מותאם גם למכשירים ניידים" title="האתר מותאם גם למכשירים ניידים">
+                    <label>האתר מותאם גם למכשירים ניידים</label>
+                </div>
+
+            </div>
+
+                <div class="form-group col-sm-12">
+                    <a href="https://ps.btl.gov.il/#/ForgotPassword" ui-sref="ForgotPassword">שכחתי סיסמה או קוד משתמש</a>
+                </div>
+            <div class="col-sm-12">
+                <div class="form-group tipped">
+                    <label for="vm_userId" id="userId_lbl" class="control-label col-sm-3 required-label">מספר זהות</label>
+                    <div class="col-sm-6">
+                        <div class="tipped-input number">
+<input data-ng-model="vm.userId" id="vm_userId" class="form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required ng-valid-maxlength" ng-required="true" fv-creditcard="" data-val-creditcard="יש למלא את מספר הזהות כולל ספרת ביקורת" max-length-check="999999999" fv-length="{min: 1, max: 9}" maxlength="9" data-ng-length="1 - 9" data-val-length="יש למלא את מספר הזהות כולל ספרת ביקורת" disable-valid-styling="true" autocomplete="off" data-validated="" ng-model-options="{updateOn: &#39;blur&#39;}" type="text" required="required" aria-invalid="true" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAkCAYAAADo6zjiAAAAAXNSR0IArs4c6QAAAUxJREFUWAntV8sNgzAMNV2AAXqCYRiADdiIJXqAKboMcOkISKlfaBD5tKIRBqnFkjGxg9/DNmpDNMmVzY21Y1UbK3IiNzCCgsCDdWtgNx8wgiTAzt0stQaWJyiRFKCbF1iWJLzCpj0FmLNc5ruDbn6bQFmW1HUdwX4Sd1A2WzdNoyCwTMCoxUW0BUkyzZuxFvJrIUogBOj6LAJpmlJRFJTnubuPYmNeooBD9ybLMjUMg+7ZOI6qqirTMxUba9tW54NlXKMeBR2o61pvNheeXvOAio2tIWC1wKO2k0O/aWyZPz23pgJ4x7nUPGiKh1DxEM4+E4+JfU3AgG1l1xA4fAZECfAXxcXkHr+sXjgXUQL8G0B93xPsOzn/kIi24F3Zl34Q6JcO4XsPCwTuwqDL9EGsww8mYAgSODRInBGQE7mDpyL2n3JW4KzAn1fgCRQ97oWiBxZGAAAAAElFTkSuQmCC&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;">                        </div>
+                            <div class="tipped-help fa fa-question-circle tooltipstered" data-tipster="" tabindex="0" aria-disabled="true" aria-labelledby="tooltipsterContent_userId_lbl">
+                            <span class="sr-only" id="tooltipsterContent_userId_lbl" role="tooltip">הסבר נוסף על שדה קלט מספר זהות: יש להקיש את מספר הזהות כולל ספרת ביקורת.</span></div>
+                                            </div>
+                </div>
+                    <div class="form-group tipped">
+                        <label for="vm_userCode" id="userCode_lbl" class="control-label col-sm-3 required-label">קוד משתמש</label>
+                        <div class="col-sm-6">
+                            <div class="tipped-input">
+<input data-ng-model="vm.userCode" id="vm_userCode" class="form-control ng-empty ng-invalid ng-invalid-required ng-valid-maxlength" ng-required="true" fv-pattern="^[0-9a-zA-Z]+$" data-val-pattern="יש למלא את קוד המשתמש כפי שקיבלת בסניף הביטוח הלאומי." fv-length="8" maxlength="8" data-ng-length="8" fv-custom-validation="upperCaseStr" data-val-custom="custom error" disable-valid-styling="true" ng-change="upperCaseStr()" autocomplete="off" data-validated="" ng-model-options="{updateOn: &#39;blur&#39;}" type="text" required="required" aria-invalid="true" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAkCAYAAADo6zjiAAAAAXNSR0IArs4c6QAAAbNJREFUWAntV8FqwkAQnaymUkpChB7tKSfxWCie/Yb+gbdeCqGf0YsQ+hU95QNyDoWCF/HkqdeiIaEUqyZ1ArvodrOHxanQOiCzO28y781skKwFW3scPV1/febP69XqarNeNTB2KGs07U3Ttt/Ozp3bh/u7V7muheQf6ftLUWyYDB5yz1ijuPAub2QRDDunJsdGkAO55KYYjl0OUu1VXOzQZ64Tr+IiPXedGI79bQHdbheCIAD0dUY6gV6vB67rAvo6IxVgWVbFy71KBKkAFaEc2xPQarXA931ot9tyHphiPwpJgSbfe54Hw+EQHMfZ/msVEEURjMfjCjbFeG2dFxPo9/sVOSYzxmAwGIjnTDFRQLMQAjQ5pJAQkCQJ5HlekeERxHEsiE0xUUCzEO9AmqYQhiF0Oh2Yz+ewWCzEY6aYKKBZCAGYs1wuYTabKdNNMWWxnaA4gp3Yry5JBZRlWTXDvaozUgGTyQSyLAP0dbb3DtQlmcan0yngT2ekE9ARc+z4AvC7nauh9iouhpcGamJeX8XF8MaClwaeROWRA7nk+tUnyzGvZrKg0/40gdME/t8EvgG0/NOS6v9NHQAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: left center;">                            </div>
+                            <div class="tipped-help fa fa-question-circle tooltipstered" data-tipster="" tabindex="0" aria-disabled="true" aria-labelledby="tooltipsterContent_userCode_lbl">
+                            <span class="sr-only" id="tooltipsterContent_userCode_lbl" role="tooltip">הסבר נוסף על שדה קלט קוד משתמש: יש להקיש את קוד המשתמש כפי שקיבלת בסניף הביטוח הלאומי. אם שכחת את הקוד יש  ללחוץ על קישור <q>שכחתי סיסמה או קוד משתמש</q>.</span></div>
+                        </div>
+                    </div>
+                <div class="form-group tipped">
+                    <label for="vm_password" id="password_lbl" class="control-label col-sm-3 required-label">סיסמה</label>
+                    <div class="col-sm-6">
+                        <div class="tipped-input">
+<input data-ng-model="vm.password" id="vm_password" class="form-control ng-empty ng-invalid ng-invalid-required ng-valid-maxlength" ng-required="true" fv-pattern="^[0-9a-zA-Z]+$" data-val-pattern="סיסמה יכולה להכיל ספרות ואותיות באנגלית בלבד" fv-length="{min: 6, max: 10}" maxlength="10" data-ng-length="6 - 10" disable-valid-styling="true" type="password" autocomplete="off" data-validated="" ng-model-options="{updateOn: &#39;blur&#39;}" required="required" aria-invalid="true" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAkCAYAAADo6zjiAAAAAXNSR0IArs4c6QAAAbNJREFUWAntV8FqwkAQnaymUkpChB7tKSfxWCie/Yb+gbdeCqGf0YsQ+hU95QNyDoWCF/HkqdeiIaEUqyZ1ArvodrOHxanQOiCzO28y781skKwFW3scPV1/febP69XqarNeNTB2KGs07U3Ttt/Ozp3bh/u7V7muheQf6ftLUWyYDB5yz1ijuPAub2QRDDunJsdGkAO55KYYjl0OUu1VXOzQZ64Tr+IiPXedGI79bQHdbheCIAD0dUY6gV6vB67rAvo6IxVgWVbFy71KBKkAFaEc2xPQarXA931ot9tyHphiPwpJgSbfe54Hw+EQHMfZ/msVEEURjMfjCjbFeG2dFxPo9/sVOSYzxmAwGIjnTDFRQLMQAjQ5pJAQkCQJ5HlekeERxHEsiE0xUUCzEO9AmqYQhiF0Oh2Yz+ewWCzEY6aYKKBZCAGYs1wuYTabKdNNMWWxnaA4gp3Yry5JBZRlWTXDvaozUgGTyQSyLAP0dbb3DtQlmcan0yngT2ekE9ARc+z4AvC7nauh9iouhpcGamJeX8XF8MaClwaeROWRA7nk+tUnyzGvZrKg0/40gdME/t8EvgG0/NOS6v9NHQAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: left center;">                        </div>
+                        <div class="tipped-help fa fa-question-circle tooltipstered" data-tipster="" data-title="יש להקיש את הסיסמה הקבועה. אם זו כניסתך הראשונה לשירות יש להקיש את הסיסמה הזמנית שקיבלת בסניף הביטוח הלאומי.&lt;br /&gt; אם שכחת את הסיסמה יש ללחוץ על קישור  &quot;שכחתי סיסמה או קוד משתמש&quot;." tabindex="0" aria-disabled="true" aria-labelledby="tooltipsterContent_password_lbl">
+                        <span class="sr-only" id="tooltipsterContent_password_lbl" role="tooltip">הסבר נוסף על שדה קלט סיסמה: יש להקיש את הסיסמה הקבועה. אם זו כניסתך הראשונה לשירות יש להקיש את הסיסמה הזמנית שקיבלת בסניף הביטוח הלאומי.<br> אם שכחת את הסיסמה יש ללחוץ על קישור  "שכחתי סיסמה או קוד משתמש".</span></div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-3 col-sm-3">
+                            <button class="btn btn-block btn-primary ladda-button" type="submit" data-color="blue" data-size="s" ladda-button="laddaLoading" data-style="expand-left">
+                                <span class="ladda-label">כניסה</span>
+                            <span class="ladda-spinner"></span></button>
+                    </div>
+                </div>
+                <div class="form-group ng-hide1">
+                    <div class="col-sm-offset-3 col-sm-8">
+                        <!-- ngIf: errorMessage || showChangeIntMsg || showChangeIntSoonMsg -->
+                    </div>
+                </div>
+            </div><div class="row"><div class="col-xs-12" id="redAsteriskText">שדה עם ציון כוכבית <span>*</span> הינו שדה חובה</div></div>
+        </form>
+    </div>
+</div></div>
+            </div>
+        </div>
+    </div>
+    <div id="MMoverlay" ng-show="_isMMCollapsed" close-mobile-menu="" aria-hidden="true" class="ng-hide"></div>
+    <script src="./שירות אישי_files/jquery"></script>
+
+    <script src="./שירות אישי_files/app(1)"></script>
+
+
+
+</body></html>

@@ -1,0 +1,412 @@
+﻿.MeidaNossafBtn, .MeidaNossafBtn:visited
+{
+	float:left;
+	text-decoration:none!important;
+	background:#fff;
+	padding: 5px 10px;
+    border-radius: 5px;
+	font-size:0.8em; font-weight:bold;
+	border:1px solid transparent;
+	transition:0.2s ease;
+}
+
+a.MeidaNossafBtn:hover 
+{
+	text-decoration:none!important;
+}
+
+.MeidaNossafBtn:focus, 
+.MeidaNossafBtn:hover {
+border:1px solid #8EBEE8;
+transition:0.2s ease;
+color:#0066FF}
+
+
+.MeidaNossafBtn:after 
+{content:"»";
+color:#ff622b;
+margin: 0 4px 0 0;
+}
+
+
+.MeidaNossafBtn div
+{  
+    background-image: url(/_layouts/images/btl.website/MoreInfo.gif) ;
+
+	background-repeat: no-repeat;
+
+    min-height:25px;
+    cursor:pointer;
+}
+/*1.	<table> טבלת רשימה*/
+
+.expandLink
+{
+	width:100%;
+	display:block;
+}
+.parit-lobby-header
+{
+	background-image: url(/_layouts/images/btl.website/parit-lobby-header-bg.jpg);
+	background-position: top;
+	background-repeat: repeat-x;
+	background-color: #B5D6FF;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-right: 7px;	
+	padding-left: 7px;	
+	color:#0044B7; 
+}
+
+.il-ListTable
+{
+	
+	/*width:332px;*/
+	width:100%;
+	padding:0 0 0 0;
+
+}
+.il-ListOpenCloseTable
+{
+	width:100%;
+}
+
+/*2.	td>> מפריד בין פריטים*/
+.il-SeperatorTd
+{
+		height:8px;
+	
+}
+/*3.	td>>שמכיל את טבלת הפריט*/
+.il-ItemTableTd
+{
+			 border-style:none;
+
+}
+/*	a.	<table> טבלת פריט*/
+.il-ItemTable
+{
+	/* height:79px;*/
+	 width:100%;	
+	 border-style:none;
+	 
+	
+}
+
+/*		i.	td>>עליון של פריט*/
+.il-ItemTopTd
+{
+	/*background-image:url('/sites/btl/images/list1-bg_01.jpg');
+	background-repeat:no-repeat; 
+*/
+	text-align:left; 
+	vertical-align:top;
+/*	height:8px;*/
+	width:100%;
+}
+/*		ii.	td>>שמכיל את טבלת תוכן הפריט*/
+.il-ItemContentTableTd_gray
+{
+	background: rgba(188, 214, 232, 0.25);
+	margin-bottom:15px;
+	float:right;
+	width:100%;
+	border-radius: 5px;
+	padding:10px;
+	}
+
+/*			1.	<table> טבלת תוכן הפריט*/
+.il-ItemContentTable
+{
+	width:100%;
+	border-style:none;
+}
+
+/*				a.	td>>תמונת הפריט*/
+.il-ItemImgTd
+{
+	width:98px;
+	
+}
+
+/*					i.	Img>>*/
+.il-ItemImg
+{
+	width:90px;
+	height:60px;
+	
+}
+
+/*				b.	td>>של אייקון הכותרת*/
+/*				c.	td>>של כותרת הפריט*/
+.il-ItemTitleTd_gray
+{
+	/*background-image: url(/_layouts/images/btl.website/parit-header-bg.gif);*/
+	background-position: top;
+	background-repeat: no-repeat;
+/*	background-color: #e2ecf1; */
+	padding-top: 0px;
+	padding-bottom: 4px;
+	padding-right: 0px;	
+	padding-left: 0px;	
+	float:right;
+	width:100%; 
+	border-radius: 5px;
+	}
+
+.il-ItemTitleTd_blue
+{
+background-image: url(/_layouts/images/btl.website/parit-lobby-header-bg.jpg);
+	background-position: top;
+	background-repeat: repeat-x;
+	background-color: #B5D6FF;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-right: 7px;	
+	padding-left: 7px;	
+	color:#0044B7; 
+
+
+}
+
+/*					i.	<A> של הכותרת*/
+.il-ItemTitleA
+{
+	/*width:212px;*/
+	float:right;
+	color:#0044b7;
+	font-weight:bold;
+	display:block;
+	font-family: arial;
+	font-size:1em;
+	padding:5px 0;
+	width:80%	/*font-size:1.7ex;*/
+}
+.il-ItemTitleConTd_gray
+{
+	background-image: url(/_layouts/images/btl.website/parit-header-bg.gif);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-color: #E3E3E3;
+	/*padding-top: 4px;
+	padding-bottom: 4px;
+		
+	padding-left: 7px;	*/
+	padding-right: 15px;
+	color:#0044B7; 
+	width:20%;
+	text-align:left;
+	
+
+}
+
+.il-ItemTitleConTd_blue
+{
+	background-image: url(/_layouts/images/btl.website/parit-lobby-header-bg.jpg);
+	background-position: top;
+	background-repeat: repeat-x;
+	background-color: #B5D6FF;
+	padding-top: 4px;
+	padding-bottom: 4px;
+/*	padding-right: 7px;	*/
+	padding-left: 7px;	
+	color:#0044B7; 
+
+	padding-right: 15px;
+	width:20%;
+	text-align:left;
+	
+
+}
+
+.il-ItemTitleConA
+{
+		border-style:none;
+
+}
+.il-ItemTitleConSpan
+{
+	background-image: url(/_layouts/images/btl.website/MoreInfo.gif) ;
+
+	background-repeat: no-repeat;
+	background-position: left center;
+	margin-left: 7px;
+	text-align:right; 
+	vertical-align:top;
+
+	width:100%;
+
+/*	padding-left:10px;
+	padding-bottom:5px;*/
+	cursor:hand;
+	border-style:none;
+	text-decoration:none;
+
+}
+/*				d.	td>>של תיאור הפריט*/
+.il-ItemDescTd
+{  
+	/*font-size:1.6ex !important;*/
+	/*font-size:1.5ex !important;*/
+    text-align:justify;
+    padding-bottom:7px;
+    padding-left:7px;
+    padding-right:7px;
+    padding-top:7px;
+float: right;  
+}
+
+.il-ItemDescTd p {
+    margin: 0.5em 0;
+}
+
+
+/*<span>d1  של התאריך*/
+.il-ItemDate
+{
+   
+   /* font-size:1.8ex;*/
+}
+/*		iii.	td>>תחתון של פריט*/
+.il-BottomTd
+{
+	height:0px;
+	display:none;
+}
+/*					i.	<A> המשך של הכותרת*/
+.il-ConA
+{
+
+	border-style:none;
+	
+}
+.il-OpenCloseItemTable
+{
+	width:100%;
+}
+.il-OpenCloseItemRightTd
+{
+	
+	/*background-image:url(/sites/btl/images/list2-bg-right.jpg);*/
+    background-position:top;
+    background-repeat:no-repeat;
+    /*width:25px;*/
+    width:0px;
+}
+.il-OpenCloseItemLeftTd
+{
+	  background-image:url(/_layouts/images/btl.website/parit-header-bg.gif);/*(/sites/btl/images/list2-bg-left.jpg);*/
+    background-position:top;
+    background-repeat:no-repeat;
+    width:6px;
+	
+}
+.il-ItemOpenCloseDescTd
+{
+		
+	vertical-align:top;
+	/*font-size:1.7ex !important;1.6ex !important;*/
+	font-family:Arial;
+	font-weight:700;
+	
+	/*background-image:url(/sites/btl/images/list2-bg.jpg);*/
+	background-image:url(/_layouts/images/btl.website/parit-header-bg.gif);
+	/*background-position:top;*/
+	background-position:50% top;
+	background-repeat: no-repeat;/*repeat-x;*/
+	/*padding-top:5px;*/
+	/*padding-right:5px;*/
+	height:27px;
+	background-color:#e3e3e3;
+	PADDING-RIGHT: 7px;	
+	PADDING-LEFT: 7px;	
+	PADDING-BOTTOM: 4px;	
+	COLOR: #0044b7;	
+	PADDING-TOP: 4px;	
+
+}
+/*2.	<td> של ההמשך בתיאור הנפתח*/
+.il-ItemOpenDescConTd
+{
+ text-align:left;
+ height:15px;
+}
+
+.il-AllItemsTD
+{
+direction:rtl;
+text-align:right;
+	
+}
+
+/*==================AnchorsList=================================*/
+.anchorsTable 
+{
+	 direction:rtl;
+	 border:thick;
+	 border-color:fuchsia;
+}
+
+.anchor-img
+{
+	background-image:url('/_layouts/images/btl.website/arrow-gray.gif');
+	background-repeat:no-repeat;
+	background-position:50%;
+
+	
+}
+
+.anchor-td
+{
+	vertical-align:top;
+	width:50%;
+	padding:0px !important;
+	vertical-align:top;
+	text-align:right;
+	direction:rtl;
+}
+
+.anchor-tbl
+{
+	width:100%;
+	text-align:right;
+	direction:rtl;
+	vertical-align:top;	
+}
+
+.anchor-tr
+{
+	text-align:right;
+	direction:rtl;
+	vertical-align:top;	
+}
+
+
+.anchor-td-item
+{
+	padding:0px 0px 0px 0px;
+	direction:rtl;
+}
+
+/*================concepts web part========================*/
+.conc-item-td
+{
+	/*font-size:1.6ex !important;*/
+	font-weight:bold;
+	
+	background-image: url('/_layouts/images/btl.website/parit-header-bg.gif');
+	background-position: top;
+	background-repeat: no-repeat;
+	background-color: #E3E3E3;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-right: 7px;	
+	padding-left: 7px;	
+	color:#0044B7; 
+
+}
+	
+
+
+
+
