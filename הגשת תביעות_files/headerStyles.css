@@ -1,0 +1,51 @@
+﻿/* header styles*/
+h3.btl-rteElement-H3 {
+    -ms-name: תת כותרת 3;
+    color: #262626;
+    font-family: Arial;
+    font-size: 1.05em;
+    font-weight: bold;
+    margin: 1em 0 0.5em 0;
+}
+
+h2.btl-rteElement-H2 {
+    -ms-name: תת כותרת 2;
+    color: #223f90;
+    font-family: Arial;
+    font-size: 1.22em;
+    font-weight: bold;
+    margin: 1.5em 0 0.5em;
+}
+
+/* font family*/
+.btl-rteFontFace-1
+{
+    -ms-name : Arial;
+	font-family:Arial;
+}
+
+/* font size*/
+
+.btl-rteFontSize-1
+{
+    -ms-name : 1em;
+	font-size: 1em;
+}
+.btl-rteFontSize-2
+{
+    -ms-name : 1.1em;
+	font-size: 1.1em;
+}
+
+.btl-rteFontSize-3
+{
+    -ms-name : 1.2em;
+	font-size: 1.2em;
+}
+
+/* table */
+.btl-rteTable-default {
+   -ms-name:טבלה צבעונית;
+    border: 1px solid #88B7E2;
+}
+
