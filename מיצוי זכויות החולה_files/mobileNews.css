@@ -1,0 +1,63 @@
+﻿#scroller_container {
+	display:none
+}
+
+@media screen and (max-width: 767px), (max-device-width: 400px) {
+
+/*Mobile News*/
+
+/* CSS Hack Safari */
+#dummy {;# }
+
+#scroller_container {
+	display:none
+}
+
+#scroller_container 
+{
+	padding: 10px 0px 0px 35px;
+    background:white;
+    height:33px;
+    overflow:hidden;
+    top:10px;
+}
+
+#scroller_container a {
+    /*display: inline;*/
+    float:none;
+    /*list-style-position: inside;*/
+    margin-left:20px;
+    color:black !important;
+}
+ 
+#scroller_container a * {
+    white-space: nowrap;
+    width: auto;
+    margin: 2px 5px;
+    background: white;
+    border-radius: 10px;
+    display: inline;
+
+}
+
+#scroller_container strong, #scroller_container span 
+{
+	font-size:0.8em; color:black !important;
+}
+
+#scroller_container strong:hover, #scroller_container  span:hover{
+	text-decoration:underline !important;
+}
+
+
+#scroller_items
+{
+    line-height:33px ;
+    white-space:nowrap; 
+    margin: 0;
+}
+.envelopeDiv 
+{
+	background:white;
+}
+}
